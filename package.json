@@ -1,0 +1,15 @@
+{
+  "name": "selenium-js",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "bot.js",
+  "author": "Nhut Truong",
+  "dependencies": {
+      "selenium-webdriver": "4.8.1",
+      "ethers": "5.5.2",
+      "@binance/connector": "2.0.1"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  }
+}
