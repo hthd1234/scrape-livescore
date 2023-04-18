@@ -3,21 +3,37 @@ const { Builder, By, Key } = require('selenium-webdriver');
 // const chrome = require('selenium-webdriver/chrome');
 const firefox = require('selenium-webdriver/firefox');
 const express = require('express');
-var fs = require('fs');
+const fs = require('fs');
+const server = express();
 
 var getTenisDriver = null;
-const server = express();
+var getBaseketballDriver = null;
+var scrollToTopTimesTenis = 0;
+var scrollToTopTimesBasketball = 0;
 
 async function getBasketball() {
 	try {
 		var results = [];
 		var leaguesDict = {};
 
-		console.log("Open browser");	
-		var driver = await openBrowser();
-		
-		console.log("Visit page");
-		await driver.get("https://www.livescore.com/en/basketball");
+		if (getBaseketballDriver == null) {
+			console.log("Open browser");
+			getBaseketballDriver = await openBrowser();
+			
+			var siteUrl = "https://www.livescore.com/en/basketball";
+			console.log("Visit page " + siteUrl);
+			await getBaseketballDriver.get(siteUrl);
+		} else {
+			if (scrollToTopTimesBasketball < 10) {
+				getBaseketballDriver.executeScript("window.scrollTo(0, 0)", "");
+				scrollToTopTimesBasketball++;
+			} else {
+				getBaseketballDriver.navigate().refresh();
+				scrollToTopTimesBasketball = 0;
+			}
+		}
+
+		var driver = getBaseketballDriver;
 
 		await sleepRandom();
 
@@ -67,8 +83,21 @@ async function getBasketball() {
 		var json = JSON.stringify(results);
 		var fs = require('fs');
 		fs.writeFileSync('./output/basketball.json', json);
+
+		console.log("Wait few seconds then get new data by calling this method again");
+		await sleepRandom();
+		getBasketball();
 	} catch (err) {
-		throw err;
+		console.log(err);
+		
+		console.log("Error, close browser then get data again");
+		
+		if (getBaseketballDriver) {
+			await getBaseketballDriver.close();
+			getBaseketballDriver = null;
+		}
+
+		getBasketball();
 	}
 }
 
@@ -118,7 +147,13 @@ async function getTenis() {
 			console.log("Visit page " + siteUrl);
 			await getTenisDriver.get(siteUrl);
 		} else {
-			getTenisDriver.navigate().refresh();
+			if (scrollToTopTimesTenis < 10) {
+				getTenisDriver.executeScript("window.scrollTo(0, 0)", "");
+				scrollToTopTimesTenis++;
+			} else {
+				getTenisDriver.navigate().refresh();
+				scrollToTopTimesTenis = 0;
+			}
 		}
 
 		var driver = getTenisDriver;
@@ -153,7 +188,7 @@ async function getTenis() {
 			await sleepRandom();
 
 			console.log("Scroll page down");
-			driver.executeScript("window.scrollBy(0, 1500)", "");
+			driver.executeScript("window.scrollBy(0, 1000)", "");
 			await sleepRandom();
 
 			var currentPageYOffset = await driver.executeScript("return window.pageYOffset;");
@@ -173,7 +208,7 @@ async function getTenis() {
 		fs.writeFileSync('./output/tenis.json', json);
 
 		console.log("Wait few seconds then get new data by calling this method again");
-		await sleep(5000);
+		await sleepRandom();
 		getTenis();
 	} catch (err) {
 		console.log(err);
@@ -260,7 +295,7 @@ async function getTenisMatches(league) {
 async function openBrowser() {
 	try {
 		let options = new firefox.Options();
-		options.addArguments("--headless");
+		// options.addArguments("--headless");
 		
 		let driver = new Builder()
 	    	.forBrowser('firefox')
@@ -273,11 +308,16 @@ async function openBrowser() {
     }
 }
 
-// getBasketball();
+getBasketball();
 getTenis();
 
-server.get('/baseketball', function(req, res) {
+server.get('/tennis', function(req, res) {
 	var json = fs.readFileSync('./output/tenis.json');
+	res.json({ 'data': JSON.parse(json)});
+});
+
+server.get('/basketball', function(req, res) {
+	var json = fs.readFileSync('./output/basketball.json');
 	res.json({ 'data': JSON.parse(json)});
 });
 
