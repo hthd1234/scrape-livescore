@@ -472,7 +472,7 @@ async function getTenis() {
 			await sleepRandom();
 
 			console.log("Scroll page down");
-			driver.executeScript("window.scrollBy(0, 1000)", "");
+			driver.executeScript("window.scrollBy(0, 2000)", "");
 			await sleepRandom();
 
 			var currentPageYOffset = await driver.executeScript("return window.pageYOffset;");
