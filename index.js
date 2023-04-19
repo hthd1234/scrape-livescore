@@ -602,9 +602,9 @@ async function openBrowser() {
     }
 }
 
-// getBasketball();
-// getTenis();
-// getHockey();
+getBasketball();
+getTenis();
+getHockey();
 getCricket();
 
 server.get('/tennis', function(req, res) {
