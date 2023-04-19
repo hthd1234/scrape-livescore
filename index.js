@@ -117,10 +117,14 @@ async function getBasketballMatches(league) {
 		var matchData = {};
 
 		try {
-			var id = await match.getAttribute("id");
-			id = id.replace("__match-row", "");
+			var idValue = await match.getAttribute("id");
+			var id = idValue.replace("__match-row", "");
+			id = id.replace("__live", "");
 			id = id.split("-")[1];
 			matchData["Id"] = id;
+
+			var isLive = idValue.includes("live");
+			matchData["IsLive"] = isLive;
  		} catch {}
 
 		var homeName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__home-team-name')]")).getText();
@@ -249,10 +253,14 @@ async function getHockeyMatches(league) {
 		var matchData = {};
 
 		try {
-			var id = await match.getAttribute("id");
-			id = id.replace("__match-row", "");
+			var idValue = await match.getAttribute("id");
+			var id = idValue.replace("__match-row", "");
+			id = id.replace("__live", "");
 			id = id.split("-")[1];
 			matchData["Id"] = id;
+
+			var isLive = idValue.includes("live");
+			matchData["IsLive"] = isLive;
  		} catch {}
 
 		var homeName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__home-team-name')]")).getText();
@@ -381,10 +389,14 @@ async function getCricketMatches(league) {
 		var matchData = {};
 
 		try {
-			var id = await match.getAttribute("id");
-			id = id.replace("__match-row", "");
+			var idValue = await match.getAttribute("id");
+			var id = idValue.replace("__match-row", "");
+			id = id.replace("__live", "");
 			id = id.split("-")[1];
 			matchData["Id"] = id;
+
+			var isLive = idValue.includes("live");
+			matchData["IsLive"] = isLive;
  		} catch {}
 
 		var homeName = await match.findElement(By.xpath(".//*[contains(@id, '__home-team')]")).getText();
@@ -519,10 +531,14 @@ async function getTenisMatches(league) {
 		var matchData = {};
 
 		try {
-			var id = await match.getAttribute("id");
-			id = id.replace("__match-row", "");
+			var idValue = await match.getAttribute("id");
+			var id = idValue.replace("__match-row", "");
+			id = id.replace("__live", "");
 			id = id.split("-")[1];
 			matchData["Id"] = id;
+
+			var isLive = idValue.includes("live");
+			matchData["IsLive"] = isLive;
  		} catch {}
 
 		var homeNameElements = await match.findElements(By.xpath(".//*[contains(@id, 'home-name')]"));
