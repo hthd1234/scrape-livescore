@@ -14,6 +14,8 @@ var getCricketDriver = null;
 var scrollToTopTimesTenis = 0;
 var scrollToTopTimesBasketball = 0;
 
+var PORT = 6789;
+
 //Basket ball
 
 async function getBasketball() {
@@ -40,7 +42,7 @@ async function getBasketball() {
 
 		var driver = getBaseketballDriver;
 
-		await sleepRandom();
+		await sleep(2000);
 
 		var list = await driver.findElement(By.xpath("//*[@data-test-id='virtuoso-item-list']"));
 
@@ -176,7 +178,7 @@ async function getHockey() {
 
 		var driver = getHockeyDriver;
 
-		await sleepRandom();
+		await sleep(2000);
 
 		var list = await driver.findElement(By.xpath("//*[@data-test-id='virtuoso-item-list']"));
 
@@ -312,7 +314,7 @@ async function getCricket() {
 
 		var driver = getCricketDriver;
 
-		await sleepRandom();
+		await sleep(2000);
 
 		var list = await driver.findElement(By.xpath("//*[@data-test-id='virtuoso-item-list']"));
 
@@ -487,7 +489,7 @@ async function getTenis() {
 
 		var driver = getTenisDriver;
 
-		await sleepRandom();
+		await sleep(2000);
 
 		var list = await driver.findElement(By.xpath("//*[@data-test-id='virtuoso-item-list']"));
 
@@ -676,6 +678,6 @@ server.get('/basketball', function(req, res) {
 	res.json({ 'data': JSON.parse(json)});
 });
 
-server.listen(80, () => {
-	console.log('Server listening on port 80');
+server.listen(PORT, () => {
+	console.log('Server listening on port ' + PORT);
 })
