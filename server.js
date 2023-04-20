@@ -129,6 +129,9 @@ async function getBasketballMatches(league) {
 			matchData["IsLive"] = isLive;
  		} catch {}
 
+		var link = await getMatchLink(match);
+		matchData["Link"] = link;
+
 		var homeName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__home-team-name')]")).getText();
 		var awayName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__away-team-name')]")).getText();
 
@@ -651,6 +654,16 @@ async function openBrowser() {
     } catch (err) {
     	throw err;
     }
+}
+
+async function getMatchLink(match) {
+	try {
+		var linkE = await match.findElement(By.xpath(".//a[contains(@class, 'gf')]"));
+		var link = await linkE.getAttribute("href");
+		return link;
+	} catch {
+		return "";
+	}
 }
 
 getBasketball();
