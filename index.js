@@ -403,8 +403,8 @@ async function getCricketMatches(league) {
 		var awayName = await match.findElement(By.xpath(".//*[contains(@id, '__away-team')]")).getText();
 
 		try {
-			var homeScore = await match.findElement(By.xpath(".//*[contains(@id, 'home-score1')]")).getText();
-			var awayScore = await match.findElement(By.xpath(".//*[contains(@id, 'away-score1')]")).getText();
+			var homeScore = await getScoresCricket(match, "home-score");
+			var awayScore = await getScoresCricket(match, "away-score");
 
 			matchData["HomeScore"] = homeScore;
 			matchData["AwayScore"] = awayScore;
@@ -413,12 +413,10 @@ async function getCricketMatches(league) {
 		var statusOrTime = await match.findElement(By.xpath(".//*[contains(@data-testid, 'match-row_cricket_status')]")).getText();
 		var statusComment = await match.findElement(By.xpath(".//*[contains(@id, 'status-comment')]")).getText();
 		var phase = await match.findElement(By.xpath(".//*[contains(@data-testid, 'match-row_cricket_phase')]")).getText();
-		
 
 		matchData["StatusOrTime"] = statusOrTime;
 		matchData["StatusComment"] = statusComment;
 		matchData["Phase"] = phase;
-		
 		matchData["HomeName"] = homeName;
 		matchData["AwayName"] = awayName;
 
@@ -426,6 +424,41 @@ async function getCricketMatches(league) {
 	}
 
 	return results;
+}
+
+async function getScoresCricket(match, attributeName) {
+	var score1 = "";
+	var score2 = "";
+	var score1E = null;
+	var score2E = null;
+	
+	try {
+		score1E = await match.findElement(By.xpath(".//*[contains(@id, '" + attributeName + "1')]"));
+		score1 = await score1E.getText();
+	} catch {
+		score1E = null;
+		score1 = "";
+	}
+
+	try {
+		score2E = await match.findElement(By.xpath(".//*[contains(@id, '" + attributeName + "2')]"));
+		score2 = await score2E.getText();
+	} catch {
+		score2E = null;
+		score2 = "";
+	}
+
+	if (score2E == null && score1E != null) {
+		try {
+			var matchDetails = await score1E.findElement(By.xpath("..//*[contains(@id, 'match-details__overs')]"));
+			
+			if (matchDetails) {
+				score2 = await matchDetails.getText();
+			}
+		} catch {}
+	}
+
+	return score1 + score2;
 }
 
 //Tenis
