@@ -98,7 +98,7 @@ async function getBasketball() {
 		console.log("Error, close browser then get data again");
 		
 		if (getBaseketballDriver) {
-			await getBaseketballDriver.close();
+			await getBaseketballDriver.quit();
 			getBaseketballDriver = null;
 		}
 
@@ -234,7 +234,7 @@ async function getHockey() {
 		console.log("Error, close browser then get data again");
 		
 		if (getHockeyDriver) {
-			await getHockeyDriver.close();
+			await getHockeyDriver.quit();
 			getHockeyDriver = null;
 		}
 
@@ -370,7 +370,7 @@ async function getCricket() {
 		console.log("Error, close browser then get data again");
 		
 		if (getCricketDriver) {
-			await getCricketDriver.close();
+			await getCricketDriver.quit();
 			getCricketDriver = null;
 		}
 
@@ -545,7 +545,7 @@ async function getTenis() {
 		console.log("Error, close browser then get data again");
 		
 		if (getTenisDriver) {
-			await getTenisDriver.close();
+			await getTenisDriver.quit();
 			getTenisDriver = null;
 		}
 
