@@ -397,7 +397,77 @@ async function getHockeyMatches(league) {
 	return results;
 }
 
-//Hockey
+async function getHockeyDetails(driver, matchId, url) {
+	try {
+		var infoPage = url + "/info";
+		console.log("Visit page " + infoPage);
+		await driver.get(infoPage);
+
+		var detailData = {};
+		detailData["LeagueName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
+		detailData["CategoryName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
+		detailData["ScoreOrTime"] = await driver.findElement(By.xpath(".//*[contains(@id, 'score-or-time')]")).getText();
+		detailData["Status"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__status')]")).getText();
+		detailData["ScoreAgg"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__score_agg')]")).getText();
+		detailData["HomeName"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-detail_team-name_home')]")).getText();
+		detailData["AwayName"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-detail_team-name_away')]")).getText();
+		detailData["HomeIcon"] = await driver.findElement(By.xpath(".//img[contains(@alt, '" + detailData["HomeName"] + "')]")).getAttribute("src");
+		detailData["AwayIcon"] = await driver.findElement(By.xpath(".//img[contains(@alt, '" + detailData["AwayName"] + "')]")).getAttribute("src");
+
+		detailData["StartTime"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-startTime')]")).getText();
+
+		try {
+			detailData["Venue"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-venue')]")).getText();
+		} catch { }
+
+		try {
+			detailData["Spectators"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-spectators')]")).getText();
+		} catch { }
+
+		// console.log("Visit page " + url);
+		// await driver.get(url);
+
+		// var headersE = await driver.findElements(By.xpath(".//*[contains(@data-testid, 'match-detail_info-rows_scores_root')]"));
+		// var homeScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'match-detail__event')]"));
+		// var awayScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-scores__" + detailData["AwayName"] + "')]/*"));
+
+		// var headers = []
+		// var homeScores = [];
+		// var awayScores = [];
+
+		// for (var i = 0; i < headersE.length; i++) {
+		// 	var t = await headersE[i].getText();
+		// 	headers.push(t);
+		// }
+
+		// for (var i = 0; i < homeScoreE.length; i++) {
+		// 	var t = await homeScoreE[i].getText();
+		// 	homeScores.push(t);
+		// }
+
+		// for (var i = 0; i < awayScoreE.length; i++) {
+		// 	var t = await awayScoreE[i].getText();
+		// 	awayScores.push(t);
+		// }
+
+		// //First item is name, remove it
+		// headers.shift();
+		// homeScores.shift();
+		// awayScores.shift();
+
+		// detailData["Headers"] = headers;
+		// detailData["HomeScores"] = homeScores;
+		// detailData["AwayScores"] = awayScores;
+
+		console.log("Save data to file");
+		var json = JSON.stringify(detailData);
+		fs.writeFileSync('./output/hockey/' + matchId + '.json', json);
+	} catch (err) {
+		console.log(err);
+	}
+}
+
+//Cricket
 
 async function getCricket() {
 	try {
@@ -566,7 +636,7 @@ async function getScoresCricket(match, attributeName) {
 
 //Tenis
 
-async function getTenis() {
+async function getTennis() {
 	try {
 		var results = [];
 		var leaguesDict = {};
@@ -611,7 +681,7 @@ async function getTenis() {
 					var leagueData = {};
 					leagueData["LeagueName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
 					leagueData["CategoryName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
-					leagueData["Matches"] = await getTenisMatches(leagues[i]);
+					leagueData["Matches"] = await getTennisMatches(leagues[i]);
 
 					results.push(leagueData);
 				}
@@ -655,7 +725,7 @@ async function getTenis() {
 	}
 }
 
-async function getTenisMatches(league) {
+async function getTennisMatches(league) {
 	var results = []
 	var matches = await league.findElements(By.xpath("./*[contains(@id, 'match-row')]"));
 
@@ -727,13 +797,75 @@ async function getTenisMatches(league) {
 	return results;
 }
 
+async function getTennisDetails(driver, matchId, url) {
+	try {
+		console.log("Visit page " + url);
+		await driver.get(url);
+
+		var detailData = {};
+		detailData["LeagueName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
+		detailData["CategoryName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
+		detailData["Status"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__status')]")).getText();
+		detailData["StartTime"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-startTime')]")).getText();
+
+		var homeName = await driver.findElement(By.xpath(".//*[contains(@id, 'match-detail__team-name__home')]")).getText();
+		var awayName = await driver.findElement(By.xpath(".//*[contains(@id, 'match-detail__team-name__away')]")).getText();
+
+		// var homeNameAfterSplit = homeName.split("\n"); //Got data like Name1\nName2\nScore, name 
+		// homeName = homeName.split("\n")[0];
+		// awayName = homeName.split("\n")[0];
+
+		// detailData["HomeName"] = homeName;
+		// detailData["AwayName"] = awayName;
+
+		try {
+			detailData["Venue"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-venue')]")).getText();
+		} catch { }
+
+		try {
+			detailData["Spectators"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-spectators')]")).getText();
+		} catch { }
+
+
+		// var homeScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-scores__" + detailData["HomeName"] + "')]/*"));
+		// var awayScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-scores__" + detailData["AwayName"] + "')]/*"));
+
+		// var homeScores = [];
+		// var awayScores = [];
+
+		// for (var i = 0; i < homeScoreE.length; i++) {
+		// 	var t = await homeScoreE[i].getText();
+		// 	homeScores.push(t);
+		// }
+
+		// for (var i = 0; i < awayScoreE.length; i++) {
+		// 	var t = await awayScoreE[i].getText();
+		// 	awayScores.push(t);
+		// }
+
+		// //First item is name, remove it
+		// homeScores.shift();
+		// awayScores.shift();
+
+		detailData["Headers"] = ["1", "2", "3", "4", "5", "PTS", "SETS"];
+		// detailData["HomeScores"] = homeScores;
+		// detailData["AwayScores"] = awayScores;
+
+		console.log("Save data to file");
+		var json = JSON.stringify(detailData);
+		fs.writeFileSync('./output/tennis/' + matchId + '.json', json);
+	} catch (err) {
+		console.log(err);
+	}
+}
+
 //Others
 
 async function openBrowser() {
 	try {
 		let options = new firefox.Options();
 		// let options = new chrome.Options();
-		// options.addArguments("--headless");
+		options.addArguments("--headless");
 
 		let driver = new Builder()
 			.forBrowser('firefox')
@@ -810,8 +942,15 @@ server.listen(PORT, () => {
 
 
 // getBasketball();
-// getTenis();
+// getTennis();
 // getHockey();
 // getCricket();
 
-getBasketballDetailsBackground();
+// getBasketballDetailsBackground();
+
+async function test() {
+	var driver = await openBrowser();
+	getHockeyDetails(driver, "123", "https://www.livescore.com/en/hockey/nhl/stanley-cup-play-off/toronto-maple-leafs-vs-tampa-bay-lightning/938087");
+}
+
+test();
