@@ -16,6 +16,7 @@ var scrollToTopTimesBasketball = 0;
 
 var basketballResults = null;
 var getBaseketballDetailsDriver = null;
+var updateDetailEverySeconds = 5000;
 
 var PORT = 6789;
 
@@ -91,7 +92,6 @@ async function getBasketball() {
 
 		console.log("Save data to file");
 		var json = JSON.stringify(results);
-		var fs = require('fs');
 		fs.writeFileSync('./output/basketball.json', json);
 
 		basketballResults = results;
@@ -215,7 +215,6 @@ async function getBasketballDetails(driver, matchId, url) {
 
 		console.log("Save data to file");
 		var json = JSON.stringify(detailData);
-		var fs = require('fs');
 		fs.writeFileSync('./output/basketball/' + matchId + '.json', json);
 	} catch (err) {
 		console.log(err);
@@ -231,26 +230,31 @@ async function getBasketballDetailsBackground() {
 
 		while (true) {
 			if (basketballResults == null) {
+				console.log("Reading matches data from json");
 				var data = fs.readFileSync('./output/basketball.json');
-				var basketballResults = JSON.parse(data);
+				basketballResults = JSON.parse(data);
 			}
+
+			console.log("Get detail");
 
 			for (var leagueIndex = 0; leagueIndex < basketballResults.length; leagueIndex++) {
 				var matches = basketballResults[leagueIndex]["Matches"];
 
 				for (var i = 0; i < matches.length; i++) {
 					var match = matches[i];
+					var file = './output/basketball/' + match.Id + '.json';
 
-					if (match.IsLive) {
-						//Get match every 5s
+					if (match.IsLive || fs.existsSync(file) == false) {
 						await getBasketballDetails(getBaseketballDetailsDriver, match.Id, match.Link);
-					} else {
-						//Get match every 15 minutes
 					}
 
 					await sleepRandom();
 				}
 			}
+
+			console.log("Sleep " + (updateDetailEverySeconds / 1000) + "s before next loop to get details")
+			basketballResults = null;
+			await sleep(updateDetailEverySeconds);
 		}
 	} catch (err) {
 		console.log(err);
@@ -337,7 +341,6 @@ async function getHockey() {
 
 		console.log("Save data to file");
 		var json = JSON.stringify(results);
-		var fs = require('fs');
 		fs.writeFileSync('./output/hockey.json', json);
 
 		console.log("Wait few seconds then get new data by calling this method again");
@@ -466,7 +469,6 @@ async function getCricket() {
 
 		console.log("Save data to file");
 		var json = JSON.stringify(results);
-		var fs = require('fs');
 		fs.writeFileSync('./output/cricket.json', json);
 
 		console.log("Wait few seconds then get new data by calling this method again");
@@ -634,7 +636,6 @@ async function getTenis() {
 
 		console.log("Save data to file");
 		var json = JSON.stringify(results);
-		var fs = require('fs');
 		fs.writeFileSync('./output/tenis.json', json);
 
 		console.log("Wait few seconds then get new data by calling this method again");
@@ -732,7 +733,7 @@ async function openBrowser() {
 	try {
 		let options = new firefox.Options();
 		// let options = new chrome.Options();
-		options.addArguments("--headless");
+		// options.addArguments("--headless");
 
 		let driver = new Builder()
 			.forBrowser('firefox')
@@ -808,9 +809,9 @@ server.listen(PORT, () => {
 })
 
 
-getBasketball();
-getTenis();
-getHockey();
-getCricket();
+// getBasketball();
+// getTenis();
+// getHockey();
+// getCricket();
 
-// getBasketballDetailsBackground();
+getBasketballDetailsBackground();
