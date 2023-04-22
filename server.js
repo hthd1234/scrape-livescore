@@ -14,6 +14,9 @@ var getCricketDriver = null;
 var scrollToTopTimesTenis = 0;
 var scrollToTopTimesBasketball = 0;
 
+var basketballResults = null;
+var getBaseketballDetailsDriver = null;
+
 var PORT = 6789;
 
 //Basket ball
@@ -26,7 +29,7 @@ async function getBasketball() {
 		if (getBaseketballDriver == null) {
 			console.log("Open browser");
 			getBaseketballDriver = await openBrowser();
-			
+
 			var siteUrl = "https://www.livescore.com/en/basketball";
 			console.log("Visit page " + siteUrl);
 			await getBaseketballDriver.get(siteUrl);
@@ -55,11 +58,11 @@ async function getBasketball() {
 			for (let i = 0; i < leagues.length; i++) {
 				var indexName = await leagues[i].getAttribute("data-item-index");
 
-				console.log("Data index: " + indexName);
+				// console.log("Data index: " + indexName);
 
 				if (!leaguesDict[indexName]) {
 					leaguesDict[indexName] = leagues[i];
-					
+
 					var leagueData = {};
 					leagueData["LeagueName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
 					leagueData["CategoryName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
@@ -68,7 +71,7 @@ async function getBasketball() {
 					results.push(leagueData);
 				}
 			}
-			
+
 			await sleepRandom();
 
 			console.log("Scroll page down");
@@ -76,8 +79,8 @@ async function getBasketball() {
 			await sleepRandom();
 
 			var currentPageYOffset = await driver.executeScript("return window.pageYOffset;");
-			console.log("Current Page Y offset: " + currentPageYOffset);
-			
+			// console.log("Current Page Y offset: " + currentPageYOffset);
+
 			if (currentPageYOffset == previousPageYOffset) {
 				console.log("Scroll Y not change, maybe reach bottom");
 				break;
@@ -91,14 +94,16 @@ async function getBasketball() {
 		var fs = require('fs');
 		fs.writeFileSync('./output/basketball.json', json);
 
+		basketballResults = results;
+
 		console.log("Wait few seconds then get new data by calling this method again");
 		await sleepRandom();
 		getBasketball();
 	} catch (err) {
 		console.log(err);
-		
+
 		console.log("Error, close browser then get data again");
-		
+
 		if (getBaseketballDriver) {
 			await getBaseketballDriver.quit();
 			getBaseketballDriver = null;
@@ -110,49 +115,154 @@ async function getBasketball() {
 
 async function getBasketballMatches(league) {
 	var results = []
-	var matches = await league.findElements(By.xpath(".//*[contains(@class, 'bm gm')]"));
+	var matches = await league.findElements(By.xpath("./*[contains(@id, 'match-row')]"));
 
-	console.log("Matches length: " + matches.length);
+	// console.log("Matches length: " + matches.length);
 
 	for (let i = 0; i < matches.length; i++) {
 		var match = matches[i];
 		var matchData = {};
 
-		try {
-			var idValue = await match.getAttribute("id");
-			var id = idValue.replace("__match-row", "");
-			id = id.replace("__live", "");
-			id = id.split("-")[1];
-			matchData["Id"] = id;
+		matchData["Id"] = await getMatchId(match);
+		matchData["IsLive"] = await getMatchLiveStatus(match);
+		matchData["Link"] = await getMatchLink(match);
 
-			var isLive = idValue.includes("live");
-			matchData["IsLive"] = isLive;
- 		} catch {}
-
-		var link = await getMatchLink(match);
-		matchData["Link"] = link;
-
-		var homeName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__home-team-name')]")).getText();
-		var awayName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__away-team-name')]")).getText();
+		var homeName = await match.findElement(By.xpath(".//*[contains(@id, 'home-team-name')]")).getText();
+		var awayName = await match.findElement(By.xpath(".//*[contains(@id, 'away-team-name')]")).getText();
 
 		try {
-			var homeScore = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__home-team-score')]")).getText();
-			var awayScore = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__away-team-score')]")).getText();
+			var homeScore = await match.findElement(By.xpath(".//*[contains(@id, 'home-team-score')]")).getText();
+			var awayScore = await match.findElement(By.xpath(".//*[contains(@id, 'away-team-score')]")).getText();
 
 			matchData["HomeScore"] = homeScore;
 			matchData["AwayScore"] = awayScore;
-		} catch {}
+		} catch { }
 
-		var statusOrTime = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__status-or-time')]")).getText();
+		var statusOrTime = await match.findElement(By.xpath(".//*[contains(@id, 'status-or-time')]")).getText();
 
 		matchData["StatusOrTime"] = statusOrTime;
 		matchData["HomeName"] = homeName;
 		matchData["AwayName"] = awayName;
 
+		try {
+			matchData["HomeIcon"] = await match.findElement(By.xpath(".//img[contains(@alt, '" + homeName + "')]")).getAttribute("src");
+			matchData["AwayIcon"] = await match.findElement(By.xpath(".//img[contains(@alt, '" + awayName + "')]")).getAttribute("src");
+		} catch { }
+
 		results.push(matchData);
 	}
 
 	return results;
+}
+
+async function getBasketballDetails(driver, matchId, url) {
+	try {
+		console.log("Visit page " + url);
+		await driver.get(url);
+
+		var detailData = {};
+		detailData["LeagueName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
+		detailData["CategoryName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
+		detailData["ScoreOrTime"] = await driver.findElement(By.xpath(".//*[contains(@id, 'score-or-time')]")).getText();
+		detailData["Status"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__status')]")).getText();
+		detailData["HomeName"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-detail_team-name_home')]")).getText();
+		detailData["AwayName"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-detail_team-name_away')]")).getText();
+		detailData["HomeIcon"] = await driver.findElement(By.xpath(".//img[contains(@alt, '" + detailData["HomeName"] + "')]")).getAttribute("src");
+		detailData["AwayIcon"] = await driver.findElement(By.xpath(".//img[contains(@alt, '" + detailData["AwayName"] + "')]")).getAttribute("src");
+
+		detailData["StartTime"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-startTime')]")).getText();
+
+		try {
+			detailData["Venue"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-venue')]")).getText();
+		} catch { }
+
+		try {
+			detailData["Spectators"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-spectators')]")).getText();
+		} catch { }
+
+
+		var headersE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-header')]/*"));
+		var homeScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-scores__" + detailData["HomeName"] + "')]/*"));
+		var awayScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-scores__" + detailData["AwayName"] + "')]/*"));
+
+		var headers = []
+		var homeScores = [];
+		var awayScores = [];
+
+		for (var i = 0; i < headersE.length; i++) {
+			var t = await headersE[i].getText();
+			headers.push(t);
+		}
+
+		for (var i = 0; i < homeScoreE.length; i++) {
+			var t = await homeScoreE[i].getText();
+			homeScores.push(t);
+		}
+
+		for (var i = 0; i < awayScoreE.length; i++) {
+			var t = await awayScoreE[i].getText();
+			awayScores.push(t);
+		}
+
+		//First item is name, remove it
+		headers.shift();
+		homeScores.shift();
+		awayScores.shift();
+
+		detailData["Headers"] = headers;
+		detailData["HomeScores"] = homeScores;
+		detailData["AwayScores"] = awayScores;
+
+		console.log("Save data to file");
+		var json = JSON.stringify(detailData);
+		var fs = require('fs');
+		fs.writeFileSync('./output/basketball/' + matchId + '.json', json);
+	} catch (err) {
+		console.log(err);
+	}
+}
+
+async function getBasketballDetailsBackground() {
+	try {
+		if (getBaseketballDetailsDriver == null) {
+			getBaseketballDetailsDriver = await openBrowser();
+			await sleepRandom();
+		}
+
+		while (true) {
+			if (basketballResults == null) {
+				var data = fs.readFileSync('./output/basketball.json');
+				var basketballResults = JSON.parse(data);
+			}
+
+			for (var leagueIndex = 0; leagueIndex < basketballResults.length; leagueIndex++) {
+				var matches = basketballResults[leagueIndex]["Matches"];
+
+				for (var i = 0; i < matches.length; i++) {
+					var match = matches[i];
+
+					if (match.IsLive) {
+						//Get match every 5s
+						await getBasketballDetails(getBaseketballDetailsDriver, match.Id, match.Link);
+					} else {
+						//Get match every 15 minutes
+					}
+
+					await sleepRandom();
+				}
+			}
+		}
+	} catch (err) {
+		console.log(err);
+		console.log("Error, close browser then get data again");
+
+		if (getBaseketballDetailsDriver) {
+			await getBaseketballDetailsDriver.quit();
+			getBaseketballDetailsDriver = null;
+		}
+
+		getBasketballDetailsBackground();
+	}
 }
 
 //Hockey
@@ -165,7 +275,7 @@ async function getHockey() {
 		if (getHockeyDriver == null) {
 			console.log("Open browser");
 			getHockeyDriver = await openBrowser();
-			
+
 			var siteUrl = "https://www.livescore.com/en/hockey";
 			console.log("Visit page " + siteUrl);
 			await getHockeyDriver.get(siteUrl);
@@ -198,7 +308,7 @@ async function getHockey() {
 
 				if (!leaguesDict[indexName]) {
 					leaguesDict[indexName] = leagues[i];
-					
+
 					var leagueData = {};
 					leagueData["LeagueName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
 					leagueData["CategoryName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
@@ -207,7 +317,7 @@ async function getHockey() {
 					results.push(leagueData);
 				}
 			}
-			
+
 			await sleepRandom();
 
 			console.log("Scroll page down");
@@ -216,7 +326,7 @@ async function getHockey() {
 
 			var currentPageYOffset = await driver.executeScript("return window.pageYOffset;");
 			console.log("Current Page Y offset: " + currentPageYOffset);
-			
+
 			if (currentPageYOffset == previousPageYOffset) {
 				console.log("Scroll Y not change, maybe reach bottom");
 				break;
@@ -235,9 +345,9 @@ async function getHockey() {
 		getHockey();
 	} catch (err) {
 		console.log(err);
-		
+
 		console.log("Error, close browser then get data again");
-		
+
 		if (getHockeyDriver) {
 			await getHockeyDriver.quit();
 			getHockeyDriver = null;
@@ -249,24 +359,17 @@ async function getHockey() {
 
 async function getHockeyMatches(league) {
 	var results = []
-	var matches = await league.findElements(By.xpath(".//*[contains(@class, 'bm gm')]"));
+	var matches = await league.findElements(By.xpath("./*[contains(@id, 'match-row')]"));
 
-	console.log("Matches length: " + matches.length);
+	// console.log("Matches length: " + matches.length);
 
 	for (let i = 0; i < matches.length; i++) {
 		var match = matches[i];
 		var matchData = {};
 
-		try {
-			var idValue = await match.getAttribute("id");
-			var id = idValue.replace("__match-row", "");
-			id = id.replace("__live", "");
-			id = id.split("-")[1];
-			matchData["Id"] = id;
-
-			var isLive = idValue.includes("live");
-			matchData["IsLive"] = isLive;
- 		} catch {}
+		matchData["Id"] = await getMatchId(match);
+		matchData["IsLive"] = await getMatchLiveStatus(match);
+		matchData["Link"] = await getMatchLink(match);
 
 		var homeName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__home-team-name')]")).getText();
 		var awayName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__away-team-name')]")).getText();
@@ -277,7 +380,7 @@ async function getHockeyMatches(league) {
 
 			matchData["HomeScore"] = homeScore;
 			matchData["AwayScore"] = awayScore;
-		} catch {}
+		} catch { }
 
 		var statusOrTime = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__status-or-time')]")).getText();
 
@@ -301,7 +404,7 @@ async function getCricket() {
 		if (getCricketDriver == null) {
 			console.log("Open browser");
 			getCricketDriver = await openBrowser();
-			
+
 			var siteUrl = "https://www.livescore.com/en/cricket";
 			console.log("Visit page " + siteUrl);
 			await getCricketDriver.get(siteUrl);
@@ -334,7 +437,7 @@ async function getCricket() {
 
 				if (!leaguesDict[indexName]) {
 					leaguesDict[indexName] = leagues[i];
-					
+
 					var leagueData = {};
 					leagueData["LeagueName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
 					leagueData["CategoryName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
@@ -343,7 +446,7 @@ async function getCricket() {
 					results.push(leagueData);
 				}
 			}
-			
+
 			await sleepRandom();
 
 			console.log("Scroll page down");
@@ -352,7 +455,7 @@ async function getCricket() {
 
 			var currentPageYOffset = await driver.executeScript("return window.pageYOffset;");
 			console.log("Current Page Y offset: " + currentPageYOffset);
-			
+
 			if (currentPageYOffset == previousPageYOffset) {
 				console.log("Scroll Y not change, maybe reach bottom");
 				break;
@@ -371,9 +474,9 @@ async function getCricket() {
 		getCricket();
 	} catch (err) {
 		console.log(err);
-		
+
 		console.log("Error, close browser then get data again");
-		
+
 		if (getCricketDriver) {
 			await getCricketDriver.quit();
 			getCricketDriver = null;
@@ -385,24 +488,17 @@ async function getCricket() {
 
 async function getCricketMatches(league) {
 	var results = []
-	var matches = await league.findElements(By.xpath(".//*[contains(@class, 'dq iq')]"));
+	var matches = await league.findElements(By.xpath("./*[contains(@id, 'match-row')]"));
 
-	console.log("Matches length: " + matches.length);
+	// console.log("Matches length: " + matches.length);
 
 	for (let i = 0; i < matches.length; i++) {
 		var match = matches[i];
 		var matchData = {};
 
-		try {
-			var idValue = await match.getAttribute("id");
-			var id = idValue.replace("__match-row", "");
-			id = id.replace("__live", "");
-			id = id.split("-")[1];
-			matchData["Id"] = id;
-
-			var isLive = idValue.includes("live");
-			matchData["IsLive"] = isLive;
- 		} catch {}
+		matchData["Id"] = await getMatchId(match);
+		matchData["IsLive"] = await getMatchLiveStatus(match);
+		matchData["Link"] = await getMatchLink(match);
 
 		var homeName = await match.findElement(By.xpath(".//*[contains(@id, '__home-team')]")).getText();
 		var awayName = await match.findElement(By.xpath(".//*[contains(@id, '__away-team')]")).getText();
@@ -413,7 +509,7 @@ async function getCricketMatches(league) {
 
 			matchData["HomeScore"] = homeScore;
 			matchData["AwayScore"] = awayScore;
-		} catch {}
+		} catch { }
 
 		var statusOrTime = await match.findElement(By.xpath(".//*[contains(@data-testid, 'match-row_cricket_status')]")).getText();
 		var statusComment = await match.findElement(By.xpath(".//*[contains(@id, 'status-comment')]")).getText();
@@ -436,7 +532,7 @@ async function getScoresCricket(match, attributeName) {
 	var score2 = "";
 	var score1E = null;
 	var score2E = null;
-	
+
 	try {
 		score1E = await match.findElement(By.xpath(".//*[contains(@id, '" + attributeName + "1')]"));
 		score1 = await score1E.getText();
@@ -456,11 +552,11 @@ async function getScoresCricket(match, attributeName) {
 	if (score2E == null && score1E != null) {
 		try {
 			var matchDetails = await score1E.findElement(By.xpath("..//*[contains(@id, 'match-details__overs')]"));
-			
+
 			if (matchDetails) {
 				score2 = await matchDetails.getText();
 			}
-		} catch {}
+		} catch { }
 	}
 
 	return score1 + score2;
@@ -476,7 +572,7 @@ async function getTenis() {
 		if (getTenisDriver == null) {
 			console.log("Open browser");
 			getTenisDriver = await openBrowser();
-			
+
 			var siteUrl = "https://www.livescore.com/en/tennis";
 			console.log("Visit page " + siteUrl);
 			await getTenisDriver.get(siteUrl);
@@ -509,7 +605,7 @@ async function getTenis() {
 
 				if (!leaguesDict[indexName]) {
 					leaguesDict[indexName] = leagues[i];
-					
+
 					var leagueData = {};
 					leagueData["LeagueName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
 					leagueData["CategoryName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
@@ -518,7 +614,7 @@ async function getTenis() {
 					results.push(leagueData);
 				}
 			}
-			
+
 			await sleepRandom();
 
 			console.log("Scroll page down");
@@ -527,7 +623,7 @@ async function getTenis() {
 
 			var currentPageYOffset = await driver.executeScript("return window.pageYOffset;");
 			console.log("Current Page Y offset: " + currentPageYOffset);
-			
+
 			if (currentPageYOffset == previousPageYOffset) {
 				console.log("Scroll Y not change, maybe reach bottom");
 				break;
@@ -546,9 +642,9 @@ async function getTenis() {
 		getTenis();
 	} catch (err) {
 		console.log(err);
-		
+
 		console.log("Error, close browser then get data again");
-		
+
 		if (getTenisDriver) {
 			await getTenisDriver.quit();
 			getTenisDriver = null;
@@ -560,24 +656,17 @@ async function getTenis() {
 
 async function getTenisMatches(league) {
 	var results = []
-	var matches = await league.findElements(By.xpath(".//*[contains(@class, 'bm')]"));
+	var matches = await league.findElements(By.xpath("./*[contains(@id, 'match-row')]"));
 
-	console.log("Matches length: " + matches.length);
+	// console.log("Matches length: " + matches.length);
 
 	for (let i = 0; i < matches.length; i++) {
 		var match = matches[i];
 		var matchData = {};
 
-		try {
-			var idValue = await match.getAttribute("id");
-			var id = idValue.replace("__match-row", "");
-			id = id.replace("__live", "");
-			id = id.split("-")[1];
-			matchData["Id"] = id;
-
-			var isLive = idValue.includes("live");
-			matchData["IsLive"] = isLive;
- 		} catch {}
+		matchData["Id"] = await getMatchId(match);
+		matchData["IsLive"] = await getMatchLiveStatus(match);
+		matchData["Link"] = await getMatchLink(match);
 
 		var homeNameElements = await match.findElements(By.xpath(".//*[contains(@id, 'home-name')]"));
 		var awayNameElements = await match.findElements(By.xpath(".//*[contains(@id, 'away-name')]"));
@@ -611,7 +700,7 @@ async function getTenisMatches(league) {
 				var awayAttributeName = ".//*[contains(@id, '1-" + i.toString() + "__side-score')]";
 				var aScore = await match.findElement(By.xpath(awayAttributeName)).getText();
 				if (aScore) awayScores += (awayScores == "" ? "" : ";") + aScore;
-			} catch {}
+			} catch { }
 		}
 
 		if (homeScores) matchData["HomeScore"] = homeScores;
@@ -625,7 +714,7 @@ async function getTenisMatches(league) {
 
 			if (liveHomeScore) matchData["LiveHomeScore"] = liveHomeScore;
 			if (liveAwayScore) matchData["LiveAwayScore"] = liveAwayScore;
-		} catch {}
+		} catch { }
 
 		//Get match status or match date
 		var statusOrTime = await match.findElement(By.xpath(".//*[contains(@id, 'status-or-time')]")).getText();
@@ -644,21 +733,21 @@ async function openBrowser() {
 		let options = new firefox.Options();
 		// let options = new chrome.Options();
 		options.addArguments("--headless");
-		
-		let driver = new Builder()
-	    	.forBrowser('firefox')
-			.setFirefoxOptions(options)
-	    	.build();
 
-	    return driver;
-    } catch (err) {
-    	throw err;
-    }
+		let driver = new Builder()
+			.forBrowser('firefox')
+			.setFirefoxOptions(options)
+			.build();
+
+		return driver;
+	} catch (err) {
+		throw err;
+	}
 }
 
 async function getMatchLink(match) {
 	try {
-		var linkE = await match.findElement(By.xpath(".//a[contains(@class, 'gf')]"));
+		var linkE = await match.findElement(By.xpath("./a"));
 		var link = await linkE.getAttribute("href");
 		return link;
 	} catch {
@@ -666,31 +755,62 @@ async function getMatchLink(match) {
 	}
 }
 
-getBasketball();
-getTenis();
-getHockey();
-getCricket();
+async function getMatchLiveStatus(match) {
+	try {
+		var idValue = await match.getAttribute("id");
+		var isLive = idValue.includes("live");
+		return isLive;
+	} catch {
+		return false
+	}
+}
 
-server.get('/tennis', function(req, res) {
+async function getMatchId(match) {
+	try {
+		var id = await match.getAttribute("id");
+		id = id.replace("__match-row", "");
+		id = id.replace("__live", "");
+		id = id.split("-")[1];
+		return id;
+	} catch {
+		return "";
+	}
+}
+
+server.get('/tennis', function (req, res) {
 	var json = fs.readFileSync('./output/tenis.json');
-	res.json({ 'data': JSON.parse(json)});
+	res.json({ 'data': JSON.parse(json) });
 });
 
-server.get('/hockey', function(req, res) {
+server.get('/hockey', function (req, res) {
 	var json = fs.readFileSync('./output/hockey.json');
-	res.json({ 'data': JSON.parse(json)});
+	res.json({ 'data': JSON.parse(json) });
 });
 
-server.get('/cricket', function(req, res) {
+server.get('/cricket', function (req, res) {
 	var json = fs.readFileSync('./output/cricket.json');
-	res.json({ 'data': JSON.parse(json)});
+	res.json({ 'data': JSON.parse(json) });
 });
 
-server.get('/basketball', function(req, res) {
+server.get('/basketball', function (req, res) {
 	var json = fs.readFileSync('./output/basketball.json');
-	res.json({ 'data': JSON.parse(json)});
+	res.json({ 'data': JSON.parse(json) });
+});
+
+server.get('/basketball/:id', function (req, res) {
+	var id = req.params.id;
+	var json = fs.readFileSync('./output/basketball/' + id + '.json');
+	res.json({ 'data': JSON.parse(json) });
 });
 
 server.listen(PORT, () => {
 	console.log('Server listening on port ' + PORT);
 })
+
+
+getBasketball();
+getTenis();
+getHockey();
+getCricket();
+
+// getBasketballDetailsBackground();
