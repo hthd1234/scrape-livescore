@@ -702,7 +702,7 @@ async function getTennis() {
 
 		console.log("Save data to file");
 		var json = JSON.stringify(results);
-		fs.writeFileSync('./output/tenis.json', json);
+		fs.writeFileSync('./output/tennis.json', json);
 
 		console.log("Wait few seconds then get new data by calling this method again");
 		await sleepRandom();
