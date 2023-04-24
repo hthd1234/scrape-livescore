@@ -18,6 +18,8 @@ var scrollToTopTimesHockey = 0;
 var maxScrollToTopTimes = 50; //Refresh the page instead of scroll to top after reach this number
 
 var getBaseketballDetailsDriver = null;
+var getDetailsDrivers = {};
+
 var updateDetailEverySeconds = 5000;
 
 var PORT = 6789;
@@ -218,50 +220,6 @@ async function getBasketballDetails(driver, matchId, url) {
 		fs.writeFileSync('./output/basketball/' + matchId + '.json', json);
 	} catch (err) {
 		console.log(err);
-	}
-}
-
-async function getBasketballDetailsBackground() {
-	try {
-		if (getBaseketballDetailsDriver == null) {
-			getBaseketballDetailsDriver = await openBrowser();
-			await sleepRandom();
-		}
-
-		while (true) {
-			console.log("Reading matches data from json");
-			var data = fs.readFileSync('./output/basketball.json');
-			basketballResults = JSON.parse(data);
-
-			for (var leagueIndex = 0; leagueIndex < basketballResults.length; leagueIndex++) {
-				var matches = basketballResults[leagueIndex]["Matches"];
-
-				for (var i = 0; i < matches.length; i++) {
-					var match = matches[i];
-					var file = './output/basketball/' + match.Id + '.json';
-
-					if (match.IsLive || fs.existsSync(file) == false) {
-						await getBasketballDetails(getBaseketballDetailsDriver, match.Id, match.Link);
-					}
-
-					await sleepRandom();
-				}
-			}
-
-			console.log("Sleep " + (updateDetailEverySeconds / 1000) + "s before next loop to get details")
-			basketballResults = null;
-			await sleep(updateDetailEverySeconds);
-		}
-	} catch (err) {
-		console.log(err);
-		console.log("Error, close browser then get data again");
-
-		if (getBaseketballDetailsDriver) {
-			await getBaseketballDetailsDriver.quit();
-			getBaseketballDetailsDriver = null;
-		}
-
-		getBasketballDetailsBackground();
 	}
 }
 
@@ -630,6 +588,76 @@ async function getScoresCricket(match, attributeName) {
 	return score1 + score2;
 }
 
+async function getCricketDetails(driver, matchId, url) {
+	// try {
+	// 	var infoPage = url + "/info";
+	// 	console.log("Visit page " + infoPage);
+	// 	await driver.get(infoPage);
+
+	// 	var detailData = {};
+	// 	detailData["LeagueName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
+	// 	detailData["CategoryName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
+	// 	detailData["ScoreOrTime"] = await driver.findElement(By.xpath(".//*[contains(@id, 'score-or-time')]")).getText();
+	// 	detailData["Status"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__status')]")).getText();
+	// 	detailData["ScoreAgg"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__score_agg')]")).getText();
+	// 	detailData["HomeName"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-detail_team-name_home')]")).getText();
+	// 	detailData["AwayName"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-detail_team-name_away')]")).getText();
+	// 	detailData["HomeIcon"] = await driver.findElement(By.xpath(".//img[contains(@alt, '" + detailData["HomeName"] + "')]")).getAttribute("src");
+	// 	detailData["AwayIcon"] = await driver.findElement(By.xpath(".//img[contains(@alt, '" + detailData["AwayName"] + "')]")).getAttribute("src");
+
+	// 	detailData["StartTime"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-startTime')]")).getText();
+
+	// 	try {
+	// 		detailData["Venue"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-venue')]")).getText();
+	// 	} catch { }
+
+	// 	try {
+	// 		detailData["Spectators"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-spectators')]")).getText();
+	// 	} catch { }
+
+	// 	// console.log("Visit page " + url);
+	// 	// await driver.get(url);
+
+	// 	// var headersE = await driver.findElements(By.xpath(".//*[contains(@data-testid, 'match-detail_info-rows_scores_root')]"));
+	// 	// var homeScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'match-detail__event')]"));
+	// 	// var awayScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-scores__" + detailData["AwayName"] + "')]/*"));
+
+	// 	// var headers = []
+	// 	// var homeScores = [];
+	// 	// var awayScores = [];
+
+	// 	// for (var i = 0; i < headersE.length; i++) {
+	// 	// 	var t = await headersE[i].getText();
+	// 	// 	headers.push(t);
+	// 	// }
+
+	// 	// for (var i = 0; i < homeScoreE.length; i++) {
+	// 	// 	var t = await homeScoreE[i].getText();
+	// 	// 	homeScores.push(t);
+	// 	// }
+
+	// 	// for (var i = 0; i < awayScoreE.length; i++) {
+	// 	// 	var t = await awayScoreE[i].getText();
+	// 	// 	awayScores.push(t);
+	// 	// }
+
+	// 	// //First item is name, remove it
+	// 	// headers.shift();
+	// 	// homeScores.shift();
+	// 	// awayScores.shift();
+
+	// 	// detailData["Headers"] = headers;
+	// 	// detailData["HomeScores"] = homeScores;
+	// 	// detailData["AwayScores"] = awayScores;
+
+	// 	console.log("Save data to file");
+	// 	var json = JSON.stringify(detailData);
+	// 	fs.writeFileSync('./output/hockey/' + matchId + '.json', json);
+	// } catch (err) {
+	// 	console.log(err);
+	// }
+}
+
 //Tenis
 
 async function getTennis() {
@@ -861,7 +889,7 @@ async function openBrowser() {
 	try {
 		let options = new firefox.Options();
 		// let options = new chrome.Options();
-		// options.addArguments("--headless");
+		options.addArguments("--headless");
 
 		let driver = new Builder()
 			.forBrowser('firefox')
@@ -906,6 +934,65 @@ async function getMatchId(match) {
 	}
 }
 
+async function getDetailsBackground(game) {
+	try {
+		if (!getDetailsDrivers[game]) {
+			getDetailsDrivers[game] = await openBrowser();
+			await sleepRandom();
+		}
+
+		while (true) {
+			console.log("Reading matches data from json");
+			var path = "./output/GAME_NAME.json".replace("GAME_NAME", game);
+			var rawData = fs.readFileSync(path);
+			var data = JSON.parse(rawData);
+
+			for (var leagueIndex = 0; leagueIndex < data.length; leagueIndex++) {
+				var matches = data[leagueIndex]["Matches"];
+
+				for (var i = 0; i < matches.length; i++) {
+					var match = matches[i];
+					var matchFile = "./output/GAME_NAME/MATCH_ID.json".replace("GAME_NAME", game).replace("MATCH_ID", match.Id);
+
+					if (match.IsLive || fs.existsSync(matchFile) == false) {
+						switch (game) {
+							case "basketball":
+								await getBasketballDetails(getDetailsDrivers[game], match.Id, match.Link);
+								break;
+							case "tennis":
+								await getTennisDetails(getDetailsDrivers[game], match.Id, match.Link);
+								break;
+							case "hockey":
+								await getHockeyDetails(getDetailsDrivers[game], match.Id, match.Link);
+								break;
+							case "cricket":
+								await getCricketDetails(getDetailsDrivers[game], match.Id, match.Link);
+								break;
+							default:
+								break;
+						}
+					}
+
+					await sleepRandom();
+				}
+			}
+
+			console.log("Sleep " + (updateDetailEverySeconds / 1000) + "s before next loop to get " + game + " details")
+			await sleep(updateDetailEverySeconds);
+		}
+	} catch (err) {
+		console.log(err);
+		console.log("Error, close browser then get " + game + " data again");
+
+		if (getDetailsDrivers[game]) {
+			await getDetailsDrivers[game].quit();
+			delete getDetailsDrivers[game];
+		}
+
+		getDetailsBackground();
+	}
+}
+
 server.get('/tennis', function (req, res) {
 	var json = fs.readFileSync('./output/tenis.json');
 	res.json({ 'data': JSON.parse(json) });
@@ -942,7 +1029,10 @@ getTennis();
 getHockey();
 getCricket();
 
-// getBasketballDetailsBackground();
+getDetailsBackground("basketball");
+getDetailsBackground("tennis");
+getDetailsBackground("hockey");
+getDetailsBackground("cricket");
 
 // async function test() {
 // 	var driver = await openBrowser();
