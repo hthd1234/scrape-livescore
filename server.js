@@ -361,11 +361,14 @@ async function getHockeyDetails(driver, matchId, url) {
 		detailData["CategoryName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
 		detailData["ScoreOrTime"] = await driver.findElement(By.xpath(".//*[contains(@id, 'score-or-time')]")).getText();
 		detailData["Status"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__status')]")).getText();
-		detailData["ScoreAgg"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__score_agg')]")).getText();
 		detailData["HomeName"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-detail_team-name_home')]")).getText();
 		detailData["AwayName"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-detail_team-name_away')]")).getText();
 		detailData["HomeIcon"] = await driver.findElement(By.xpath(".//img[contains(@alt, '" + detailData["HomeName"] + "')]")).getAttribute("src");
 		detailData["AwayIcon"] = await driver.findElement(By.xpath(".//img[contains(@alt, '" + detailData["AwayName"] + "')]")).getAttribute("src");
+
+		try {
+			detailData["ScoreAgg"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__score_agg')]")).getText();
+		} catch { }
 
 		detailData["StartTime"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-startTime')]")).getText();
 
@@ -377,40 +380,74 @@ async function getHockeyDetails(driver, matchId, url) {
 			detailData["Spectators"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-spectators')]")).getText();
 		} catch { }
 
-		// console.log("Visit page " + url);
-		// await driver.get(url);
+		console.log("Switch to tab summary");
+		await driver.get(url + "/summary");
 
-		// var headersE = await driver.findElements(By.xpath(".//*[contains(@data-testid, 'match-detail_info-rows_scores_root')]"));
-		// var homeScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'match-detail__event')]"));
-		// var awayScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-scores__" + detailData["AwayName"] + "')]/*"));
+		try {
+			//Get match-detail__event, then get parent of it, then get all div again to get the headers
+			var eventElements = await driver.findElements(By.xpath(".//div[contains(@id, 'match-detail__event')]/../div"));
+			var events = [];
 
-		// var headers = []
-		// var homeScores = [];
-		// var awayScores = [];
+			for (var i = 0; i < eventElements.length; i++) {
+				var idValue = await eventElements[i].getAttribute("id");
+				var eventData = {};
 
-		// for (var i = 0; i < headersE.length; i++) {
-		// 	var t = await headersE[i].getText();
-		// 	headers.push(t);
-		// }
+				if (idValue.includes("match-detail__event")) {
+					eventData["Time"] = await eventElements[i].findElement(By.xpath("./span")).getText();
 
-		// for (var i = 0; i < homeScoreE.length; i++) {
-		// 	var t = await homeScoreE[i].getText();
-		// 	homeScores.push(t);
-		// }
+					var divs = await eventElements[i].findElements(By.xpath("./div"))
+					var scoreE = divs[1];
+					var homeE = divs[0];
+					var awayE = divs[2];
 
-		// for (var i = 0; i < awayScoreE.length; i++) {
-		// 	var t = await awayScoreE[i].getText();
-		// 	awayScores.push(t);
-		// }
+					var score = await scoreE.getText();
+					if (score != "") eventData["Score"] = score;
 
-		// //First item is name, remove it
-		// headers.shift();
-		// homeScores.shift();
-		// awayScores.shift();
+					//homePlayer/awayPlayer always have maximum 2 childs
+					//if 2 childs, that is goal event then 1 child for player, 1 child for assits
+					//if 1 child then that is penlaty event
 
-		// detailData["Headers"] = headers;
-		// detailData["HomeScores"] = homeScores;
-		// detailData["AwayScores"] = awayScores;
+					try {
+						var fields = await homeE.findElements(By.xpath(".//*[contains(@class, 'homePlayer')]/span"));
+
+						if (fields.length == 1) {
+							var penlaty = await fields[0].getText();
+							if (penlaty != "") eventData["HomePenalty"] = penlaty;
+						}
+
+						if (fields.length == 2) {
+							eventData["HomeGoal"] = await fields[0].getText();
+							eventData["HomeAssists"] = await fields[1].getText();
+						}
+					} catch { }
+
+					try {
+						var fields = await awayE.findElements(By.xpath(".//*[contains(@class, 'awayPlayer')]/span"));
+
+						if (fields.length == 1) {
+							var penlaty = await fields[0].getText();
+							if (penlaty != "") eventData["AwayPenalty"] = penlaty;
+						}
+
+						if (fields.length == 2) {
+							eventData["AwayGoal"] = await fields[0].getText();
+							eventData["AwayAssists"] = await fields[1].getText();
+						}
+					} catch { }
+				} else {
+					var spans = await eventElements[i].findElements(By.xpath("./span"));
+					eventData["Time"] = await spans[0].getText();
+
+					var homeScore = await eventElements[i].findElement(By.xpath(".//*[contains(@id, 'match-detail__home__score')]")).getText();
+					var awayScore = await eventElements[i].findElement(By.xpath(".//*[contains(@id, 'match-detail__away__score')]")).getText();
+					eventData["Score"] = homeScore + "-" + awayScore;
+				}
+
+				events.push(eventData);
+			}
+
+			detailData["Summary"] = events;
+		} catch { }
 
 		console.log("Save data to file");
 		var json = JSON.stringify(detailData);
@@ -603,7 +640,7 @@ async function getCricketDetails(driver, matchId, url) {
 			var matchInfo = {}
 
 			for (var i = 0; i < matchDetailElements.length; i++) {
-				var fields = await matchDetailElements[i].findElements(By.xpath(".//div"));
+				var fields = await matchDetailElements[i].findElements(By.xpath("./div"));
 				var key = await fields[0].getText();
 				var value = await fields[1].getText();
 				matchInfo[key] = value;
@@ -621,7 +658,7 @@ async function getCricketDetails(driver, matchId, url) {
 			var awayPlayers = [];
 
 			for (var i = 0; i < playerElements.length; i++) {
-				var fields = await playerElements[i].findElements(By.xpath(".//span"));
+				var fields = await playerElements[i].findElements(By.xpath("./span"));
 				homePlayers.push(await fields[0].getText());
 				awayPlayers.push(await fields[1].getText());
 			}
@@ -835,8 +872,24 @@ async function getTennisDetails(driver, matchId, url) {
 		detailData["CategoryName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
 		detailData["Status"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__status')]")).getText();
 		detailData["StartTime"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-startTime')]")).getText();
-		detailData["HomeName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'match-detail__team-name__home')]")).getText();
-		detailData["AwayName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'match-detail__team-name__away')]")).getText();
+
+		try {
+			var homeNameGroup = await driver.findElements(By.xpath(".//*[contains(@id, 'match-detail__team-name__home')]/div"));
+
+			if (homeNameGroup.length >= 3) {
+				detailData["HomeName"] = await homeNameGroup[1].getText();
+				detailData["HomeScore"] = await homeNameGroup[2].getText();
+			}
+		} catch { }
+
+		try {
+			var awayNameGroup = await driver.findElements(By.xpath(".//*[contains(@id, 'match-detail__team-name__away')]/div"));
+
+			if (awayNameGroup.length >= 3) {
+				detailData["AwayName"] = await awayNameGroup[1].getText();
+				detailData["AwayScore"] = await awayNameGroup[2].getText();
+			}
+		} catch { }
 
 		try {
 			detailData["Venue"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-venue')]")).getText();
@@ -857,10 +910,10 @@ async function getTennisDetails(driver, matchId, url) {
 
 				if (id == "match-detail__info") {
 					//Previous index should be score div, try to get score here
-					var scoreColumns = await divGroups[i - 1].findElements(By.xpath(".//div"));
+					var scoreColumns = await divGroups[i - 1].findElements(By.xpath("./div"));
 
 					for (var j = 0; j < scoreColumns.length; j++) {
-						var rows = await scoreColumns[j].findElements(By.xpath(".//span"));
+						var rows = await scoreColumns[j].findElements(By.xpath("./span"));
 						homeScores.push(await rows[0].getText());
 						awayScores.push(await rows[1].getText());
 					}
@@ -1050,5 +1103,3 @@ getDetailsBackground("basketball");
 getDetailsBackground("tennis");
 getDetailsBackground("hockey");
 getDetailsBackground("cricket");
-
-// async function test() {// 	var driver = await openBrowser();// 	getHockeyDetails(driver, "123", "https://www.livescore.com/en/hockey/nhl/stanley-cup-play-off/toronto-maple-leafs-vs-tampa-bay-lightning/938087");// }
