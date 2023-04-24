@@ -14,7 +14,6 @@ var getCricketDriver = null;
 var scrollToTopTimesTenis = 0;
 var scrollToTopTimesBasketball = 0;
 
-var basketballResults = null;
 var getBaseketballDetailsDriver = null;
 var updateDetailEverySeconds = 5000;
 
@@ -93,8 +92,6 @@ async function getBasketball() {
 		console.log("Save data to file");
 		var json = JSON.stringify(results);
 		fs.writeFileSync('./output/basketball.json', json);
-
-		basketballResults = results;
 
 		console.log("Wait few seconds then get new data by calling this method again");
 		await sleepRandom();
@@ -229,13 +226,9 @@ async function getBasketballDetailsBackground() {
 		}
 
 		while (true) {
-			if (basketballResults == null) {
-				console.log("Reading matches data from json");
-				var data = fs.readFileSync('./output/basketball.json');
-				basketballResults = JSON.parse(data);
-			}
-
-			console.log("Get detail");
+			console.log("Reading matches data from json");
+			var data = fs.readFileSync('./output/basketball.json');
+			basketballResults = JSON.parse(data);
 
 			for (var leagueIndex = 0; leagueIndex < basketballResults.length; leagueIndex++) {
 				var matches = basketballResults[leagueIndex]["Matches"];
@@ -374,18 +367,18 @@ async function getHockeyMatches(league) {
 		matchData["IsLive"] = await getMatchLiveStatus(match);
 		matchData["Link"] = await getMatchLink(match);
 
-		var homeName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__home-team-name')]")).getText();
-		var awayName = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__away-team-name')]")).getText();
+		var homeName = await match.findElement(By.xpath(".//*[contains(@id, 'home-team-name')]")).getText();
+		var awayName = await match.findElement(By.xpath(".//*[contains(@id, 'away-team-name')]")).getText();
 
 		try {
-			var homeScore = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__home-team-score')]")).getText();
-			var awayScore = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__away-team-score')]")).getText();
+			var homeScore = await match.findElement(By.xpath(".//*[contains(@id, 'home-team-score')]")).getText();
+			var awayScore = await match.findElement(By.xpath(".//*[contains(@id, 'away-team-score')]")).getText();
 
 			matchData["HomeScore"] = homeScore;
 			matchData["AwayScore"] = awayScore;
 		} catch { }
 
-		var statusOrTime = await match.findElement(By.xpath(".//*[contains(@id, 'match-row__status-or-time')]")).getText();
+		var statusOrTime = await match.findElement(By.xpath(".//*[contains(@id, 'status-or-time')]")).getText();
 
 		matchData["StatusOrTime"] = statusOrTime;
 		matchData["HomeName"] = homeName;
@@ -710,7 +703,7 @@ async function getTennis() {
 
 		console.log("Wait few seconds then get new data by calling this method again");
 		await sleepRandom();
-		getTenis();
+		getTennis();
 	} catch (err) {
 		console.log(err);
 
@@ -721,7 +714,7 @@ async function getTennis() {
 			getTenisDriver = null;
 		}
 
-		getTenis();
+		getTennis();
 	}
 }
 
@@ -941,16 +934,14 @@ server.listen(PORT, () => {
 })
 
 
-// getBasketball();
-// getTennis();
-// getHockey();
-// getCricket();
+getBasketball();
+getTennis();
+getHockey();
+getCricket();
 
 // getBasketballDetailsBackground();
 
-async function test() {
-	var driver = await openBrowser();
-	getHockeyDetails(driver, "123", "https://www.livescore.com/en/hockey/nhl/stanley-cup-play-off/toronto-maple-leafs-vs-tampa-bay-lightning/938087");
-}
-
-test();
+// async function test() {
+// 	var driver = await openBrowser();
+// 	getHockeyDetails(driver, "123", "https://www.livescore.com/en/hockey/nhl/stanley-cup-play-off/toronto-maple-leafs-vs-tampa-bay-lightning/938087");
+// }
