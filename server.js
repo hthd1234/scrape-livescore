@@ -993,6 +993,7 @@ async function getDetailsBackground(game) {
 	}
 }
 
+//Get list
 server.get('/tennis', function (req, res) {
 	var json = fs.readFileSync('./output/tenis.json');
 	res.json({ 'data': JSON.parse(json) });
@@ -1013,9 +1014,28 @@ server.get('/basketball', function (req, res) {
 	res.json({ 'data': JSON.parse(json) });
 });
 
+//Get details
 server.get('/basketball/:id', function (req, res) {
 	var id = req.params.id;
 	var json = fs.readFileSync('./output/basketball/' + id + '.json');
+	res.json({ 'data': JSON.parse(json) });
+});
+
+server.get('/tennis/:id', function (req, res) {
+	var id = req.params.id;
+	var json = fs.readFileSync('./output/tennis/' + id + '.json');
+	res.json({ 'data': JSON.parse(json) });
+});
+
+server.get('/hockey/:id', function (req, res) {
+	var id = req.params.id;
+	var json = fs.readFileSync('./output/hockey/' + id + '.json');
+	res.json({ 'data': JSON.parse(json) });
+});
+
+server.get('/cricket/:id', function (req, res) {
+	var id = req.params.id;
+	var json = fs.readFileSync('./output/cricket/' + id + '.json');
 	res.json({ 'data': JSON.parse(json) });
 });
 
