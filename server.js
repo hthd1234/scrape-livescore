@@ -13,6 +13,9 @@ var getCricketDriver = null;
 
 var scrollToTopTimesTenis = 0;
 var scrollToTopTimesBasketball = 0;
+var scrollToTopTimesCricket = 0;
+var scrollToTopTimesHockey = 0;
+var maxScrollToTopTimes = 50; //Refresh the page instead of scroll to top after reach this number
 
 var getBaseketballDetailsDriver = null;
 var updateDetailEverySeconds = 5000;
@@ -34,7 +37,7 @@ async function getBasketball() {
 			console.log("Visit page " + siteUrl);
 			await getBaseketballDriver.get(siteUrl);
 		} else {
-			if (scrollToTopTimesBasketball < 10) {
+			if (scrollToTopTimesBasketball < maxScrollToTopTimes) {
 				getBaseketballDriver.executeScript("window.scrollTo(0, 0)", "");
 				scrollToTopTimesBasketball++;
 			} else {
@@ -277,12 +280,12 @@ async function getHockey() {
 			console.log("Visit page " + siteUrl);
 			await getHockeyDriver.get(siteUrl);
 		} else {
-			if (scrollToTopTimesBasketball < 10) {
+			if (scrollToTopTimesHockey < maxScrollToTopTimes) {
 				getHockeyDriver.executeScript("window.scrollTo(0, 0)", "");
-				scrollToTopTimesBasketball++;
+				scrollToTopTimesHockey++;
 			} else {
 				getHockeyDriver.navigate().refresh();
-				scrollToTopTimesBasketball = 0;
+				scrollToTopTimesHockey = 0;
 			}
 		}
 
@@ -475,12 +478,12 @@ async function getCricket() {
 			console.log("Visit page " + siteUrl);
 			await getCricketDriver.get(siteUrl);
 		} else {
-			if (scrollToTopTimesBasketball < 10) {
+			if (scrollToTopTimesCricket < maxScrollToTopTimes) {
 				getCricketDriver.executeScript("window.scrollTo(0, 0)", "");
-				scrollToTopTimesBasketball++;
+				scrollToTopTimesCricket++;
 			} else {
 				getCricketDriver.navigate().refresh();
-				scrollToTopTimesBasketball = 0;
+				scrollToTopTimesCricket = 0;
 			}
 		}
 
@@ -642,7 +645,7 @@ async function getTennis() {
 			console.log("Visit page " + siteUrl);
 			await getTenisDriver.get(siteUrl);
 		} else {
-			if (scrollToTopTimesTenis < 10) {
+			if (scrollToTopTimesTenis < maxScrollToTopTimes) {
 				getTenisDriver.executeScript("window.scrollTo(0, 0)", "");
 				scrollToTopTimesTenis++;
 			} else {
@@ -858,7 +861,7 @@ async function openBrowser() {
 	try {
 		let options = new firefox.Options();
 		// let options = new chrome.Options();
-		options.addArguments("--headless");
+		// options.addArguments("--headless");
 
 		let driver = new Builder()
 			.forBrowser('firefox')
