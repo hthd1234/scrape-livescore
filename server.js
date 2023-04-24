@@ -831,16 +831,8 @@ async function getTennisDetails(driver, matchId, url) {
 		detailData["CategoryName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
 		detailData["Status"] = await driver.findElement(By.xpath(".//*[contains(@id, 'SEV__status')]")).getText();
 		detailData["StartTime"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-startTime')]")).getText();
-
-		var homeName = await driver.findElement(By.xpath(".//*[contains(@id, 'match-detail__team-name__home')]")).getText();
-		var awayName = await driver.findElement(By.xpath(".//*[contains(@id, 'match-detail__team-name__away')]")).getText();
-
-		// var homeNameAfterSplit = homeName.split("\n"); //Got data like Name1\nName2\nScore, name 
-		// homeName = homeName.split("\n")[0];
-		// awayName = homeName.split("\n")[0];
-
-		// detailData["HomeName"] = homeName;
-		// detailData["AwayName"] = awayName;
+		detailData["HomeName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'match-detail__team-name__home')]")).getText();
+		detailData["AwayName"] = await driver.findElement(By.xpath(".//*[contains(@id, 'match-detail__team-name__away')]")).getText();
 
 		try {
 			detailData["Venue"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-venue')]")).getText();
@@ -850,30 +842,31 @@ async function getTennisDetails(driver, matchId, url) {
 			detailData["Spectators"] = await driver.findElement(By.xpath(".//*[contains(@data-testid, 'match-info-row_root-spectators')]")).getText();
 		} catch { }
 
+		//Get scores
+		try {
+			var divGroups = await driver.findElements(By.xpath(".//*[contains(@id, 'content-center')]/div"));
+			var homeScores = [];
+			var awayScores = [];
 
-		// var homeScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-scores__" + detailData["HomeName"] + "')]/*"));
-		// var awayScoreE = await driver.findElements(By.xpath(".//*[contains(@id, 'basketball-scores__" + detailData["AwayName"] + "')]/*"));
+			for (var i = 0; i < divGroups.length; i++) {
+				var id = await divGroups[i].getAttribute("id")
 
-		// var homeScores = [];
-		// var awayScores = [];
+				if (id == "match-detail__info") {
+					//Previous index should be score div, try to get score here
+					var scoreColumns = await divGroups[i - 1].findElements(By.xpath(".//div"));
 
-		// for (var i = 0; i < homeScoreE.length; i++) {
-		// 	var t = await homeScoreE[i].getText();
-		// 	homeScores.push(t);
-		// }
+					for (var j = 0; j < scoreColumns.length; j++) {
+						var rows = await scoreColumns[j].findElements(By.xpath(".//span"));
+						homeScores.push(await rows[0].getText());
+						awayScores.push(await rows[1].getText());
+					}
+				}
+			}
 
-		// for (var i = 0; i < awayScoreE.length; i++) {
-		// 	var t = await awayScoreE[i].getText();
-		// 	awayScores.push(t);
-		// }
-
-		// //First item is name, remove it
-		// homeScores.shift();
-		// awayScores.shift();
-
-		detailData["Headers"] = ["1", "2", "3", "4", "5", "PTS", "SETS"];
-		// detailData["HomeScores"] = homeScores;
-		// detailData["AwayScores"] = awayScores;
+			detailData["Headers"] = ["1", "2", "3", "4", "5", "PTS", "SETS"];
+			detailData["HomeScores"] = homeScores;
+			detailData["AwayScores"] = awayScores;
+		} catch { }
 
 		console.log("Save data to file");
 		var json = JSON.stringify(detailData);
