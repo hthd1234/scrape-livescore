@@ -955,6 +955,7 @@ async function openBrowser() {
 		let options = new firefox.Options();
 		// let options = new chrome.Options();
 		options.addArguments("--headless");
+		options.setPreference("permissions.default.image", 2);
 
 		let driver = new Builder()
 			.forBrowser('firefox')
