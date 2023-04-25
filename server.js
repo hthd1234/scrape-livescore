@@ -925,6 +925,21 @@ async function getTennisDetails(driver, matchId, url) {
 			detailData["AwayScores"] = awayScores;
 		} catch { }
 
+		console.log("Switch to tab summary");
+		await driver.get(url + "/summary");
+
+		try {
+			var summaryItems = await driver.findElements(By.xpath(".//div[contains(@id, 'match-detail_comment')]/div"));
+			var summary = [];
+
+			for (var i = 0; i < summaryItems.length; i++) {
+				var comment = await summaryItems[i].getText();
+				summary.push(comment);
+			}
+
+			detailData["Summary"] = summary;
+		} catch { }
+
 		console.log("Save data to file");
 		var json = JSON.stringify(detailData);
 		fs.writeFileSync('./output/tennis/' + matchId + '.json', json);
