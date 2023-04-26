@@ -72,6 +72,14 @@ async function getBasketball() {
 					leagueData["CategoryName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
 					leagueData["Matches"] = await getBasketballMatches(leagues[i]);
 
+					try {
+                         var imgEles = await leagues[i].findElements(By.xpath(".//*[contains(@id, 'category-header__link')]//img"));
+                         
+                         if (imgEles.length) {
+                         	leagueData["LeagueIcon"] = await imgEles[0].getAttribute("src");
+                         }
+                    } catch {}
+
 					results.push(leagueData);
 				}
 			}
@@ -270,6 +278,14 @@ async function getHockey() {
 					leagueData["LeagueName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
 					leagueData["CategoryName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
 					leagueData["Matches"] = await getHockeyMatches(leagues[i]);
+
+					try {
+                         var imgEles = await leagues[i].findElements(By.xpath(".//*[contains(@id, 'category-header__link')]//img"));
+                         
+                         if (imgEles.length) {
+                         	leagueData["LeagueIcon"] = await imgEles[0].getAttribute("src");
+                         }
+                    } catch {}
 
 					results.push(leagueData);
 				}
@@ -510,6 +526,14 @@ async function getCricket() {
 					leagueData["LeagueName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
 					leagueData["CategoryName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
 					leagueData["Matches"] = await getCricketMatches(leagues[i]);
+
+					try {
+                         var imgEles = await leagues[i].findElements(By.xpath(".//*[contains(@id, 'category-header__link')]//img"));
+                         
+                         if (imgEles.length) {
+                         	leagueData["LeagueIcon"] = await imgEles[0].getAttribute("src");
+                         }
+                    } catch {}
 
 					results.push(leagueData);
 				}
@@ -757,6 +781,14 @@ async function getTennis() {
 					leagueData["LeagueName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__stage')]")).getText();
 					leagueData["CategoryName"] = await leagues[i].findElement(By.xpath(".//*[contains(@id, 'category-header__category')]")).getText();
 					leagueData["Matches"] = await getTennisMatches(leagues[i]);
+
+					try {
+                         var imgEles = await leagues[i].findElements(By.xpath(".//*[contains(@id, 'category-header__link')]//img"));
+                         
+                         if (imgEles.length) {
+                         	leagueData["LeagueIcon"] = await imgEles[0].getAttribute("src");
+                         }
+                    } catch {}
 
 					results.push(leagueData);
 				}
