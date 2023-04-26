@@ -338,6 +338,11 @@ async function getHockeyMatches(league) {
 			matchData["AwayScore"] = awayScore;
 		} catch { }
 
+		try {
+			matchData["HomeIcon"] = await match.findElement(By.xpath(".//img[contains(@alt, '" + homeName + "')]")).getAttribute("src");
+			matchData["AwayIcon"] = await match.findElement(By.xpath(".//img[contains(@alt, '" + awayName + "')]")).getAttribute("src");
+		} catch { }
+
 		var statusOrTime = await match.findElement(By.xpath(".//*[contains(@id, 'status-or-time')]")).getText();
 
 		matchData["StatusOrTime"] = statusOrTime;
@@ -955,7 +960,7 @@ async function openBrowser() {
 		let options = new firefox.Options();
 		// let options = new chrome.Options();
 		options.addArguments("--headless");
-		options.setPreference("permissions.default.image", 2);
+		// options.setPreference("permissions.default.image", 2);
 
 		let driver = new Builder()
 			.forBrowser('firefox')
