@@ -828,6 +828,20 @@ async function getTennisMatches(league) {
 
 		matchData["AwayName"] = awayNames;
 
+		//Check icon Ball for Live
+		try {
+			if (matchData["IsLive"]) {
+				var homeChilds = await match.findElements(By.xpath(".//*[contains(@id, 'home-name')]/../div"));
+				var awayChilds = await match.findElements(By.xpath(".//*[contains(@id, 'away-name')]/../div"));
+				
+				if (homeChilds.length >= 2)
+					matchData["BallIcon"] = "Home";
+
+				if (awayChilds.length >= 2)
+					matchData["BallIcon"] = "Away";
+			}
+		} catch {}
+
 		//Get scores
 		var homeScores = "";
 		var awayScores = "";
