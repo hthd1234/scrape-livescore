@@ -572,6 +572,11 @@ async function getCricketMatches(league) {
 			matchData["AwayScore"] = await getScoresCricket(match, "away-score");
 		} catch { }
 
+		try {
+			matchData["HomeIcon"] = await match.findElement(By.xpath(".//*[contains(@id, '__home-team')]/../div/span/img")).getAttribute("src");
+			matchData["AwayIcon"] = await match.findElement(By.xpath(".//*[contains(@id, '__away-team')]/../div/span/img")).getAttribute("src");
+		} catch { }
+
 		matchData["StatusOrTime"] = await match.findElement(By.xpath(".//*[contains(@data-testid, 'match-row_cricket_status')]")).getText();
 		matchData["StatusComment"] = await match.findElement(By.xpath(".//*[contains(@id, 'status-comment')]")).getText();
 		matchData["Phase"] = await match.findElement(By.xpath(".//*[contains(@data-testid, 'match-row_cricket_phase')]")).getText();
