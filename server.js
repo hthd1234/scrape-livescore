@@ -725,6 +725,42 @@ async function getCricketDetails(driver, matchId, url) {
 			detailData["Summary"] = summary;
 		} catch { }
 
+		console.log("Switch to tab table");
+		await driver.get(url + "/table");
+
+		// try {
+			var tableData = [];
+			var rowValues = [];
+			var tableE = await driver.findElement(By.xpath(".//*[contains(@id, 'league-table')]"));
+
+			var headerEles = await tableE.findElements(By.xpath(".//*[contains(@id, 'league-table-tab')]/th"));
+
+			for (var i = 0; i < headerEles.length; i++) {
+				var hd = await headerEles[i].getText();
+				rowValues.push(hd);
+			}
+
+			tableData.push(rowValues);
+
+
+			var bodyRows = await tableE.findElements(By.xpath(".//tbody/tr"));
+
+			for (var i = 0; i < bodyRows.length; i++) {
+				var columnEles = await bodyRows[i].findElements(By.xpath(".//td"));
+				rowValues = [];
+
+				for (var j = 0; j < columnEles.length; j++) {
+					var text = await columnEles[j].getText();
+					rowValues.push(text);
+				}
+
+				tableData.push(rowValues);
+			}
+
+			detailData["Table"] = tableData;
+		// } catch { }
+
+
 		console.log("Save data to file");
 		var json = JSON.stringify(detailData);
 		fs.writeFileSync('./output/cricket/' + matchId + '.json', json);
@@ -1011,7 +1047,7 @@ async function openBrowser() {
 		let options = new firefox.Options();
 		// let options = new chrome.Options();
 		options.addArguments("--headless");
-		// options.setPreference("permissions.default.image", 2);
+		options.setPreference("permissions.default.image", 2);
 
 		let driver = new Builder()
 			.forBrowser('firefox')
@@ -1166,12 +1202,12 @@ server.listen(PORT, () => {
 })
 
 
-getBasketball();
-getTennis();
-getHockey();
-getCricket();
+// getBasketball();
+// getTennis();
+// getHockey();
+// getCricket();
 
 getDetailsBackground("basketball");
-getDetailsBackground("tennis");
-getDetailsBackground("hockey");
-getDetailsBackground("cricket");
+// getDetailsBackground("tennis");
+// getDetailsBackground("hockey");
+// getDetailsBackground("cricket");
