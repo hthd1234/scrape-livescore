@@ -1,0 +1,2116 @@
+[
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+        "CategoryName": "England",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "County Championship Division One",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/county-championship-division-one/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "County Championship Division Two",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/county-championship-division-two/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "Bob Willis Trophy Final",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/bob-willis-trophy-final/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "Vitality Blast",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/vitality-blast/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "University Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/university-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "Royal London Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/royal-london-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "National County v First Class County",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/national-county-v-first-class-county/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "Varsity Four-Day Match",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/varsity-four-day-match/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "Varsity One-Day Match",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/varsity-one-day-match/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "Rachael Heyhoe Flint Trophy",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/rachael-heyhoe-flint-trophy/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "Charlotte Edwards Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/womens-regional-t20/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "England v England Lions",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/england-v-england-lions/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "Royal London Cup 2022",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/royal-london-cup-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "County Championship Division One 2022",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/county-championship-division-one-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-england.jpg",
+                "LeagueName": "County Championship Division Two 2022",
+                "LeagueLink": "https://www.livescore.com/en/cricket/england/county-championship-division-two-2022/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-india.jpg",
+        "CategoryName": "India",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-india.jpg",
+                "LeagueName": "Indian Premier League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/india/ipl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-india.jpg",
+                "LeagueName": "Indian Premier League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/india/ipl-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-india.jpg",
+                "LeagueName": "Women's Premier League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/india/womens-premier-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-india.jpg",
+                "LeagueName": "Premier League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/india/ipl-2020/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-australia.jpg",
+        "CategoryName": "Australia",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-australia.jpg",
+                "LeagueName": "Big Bash League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/australia/big-bash-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-australia.jpg",
+                "LeagueName": "Marsh One-Day Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/australia/marsh-one-day-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-australia.jpg",
+                "LeagueName": "Domestic Other Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/australia/australian-domestic-other-matches-1/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-australia.jpg",
+                "LeagueName": "Marsh Sheffield Shield",
+                "LeagueLink": "https://www.livescore.com/en/cricket/australia/marsh-sheffield-shield/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-australia.jpg",
+                "LeagueName": "Prime Minister's XI Game v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/australia/prime-ministers-xi-game-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-australia.jpg",
+                "LeagueName": "WBBL",
+                "LeagueLink": "https://www.livescore.com/en/cricket/australia/big-bash-league-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-australia.jpg",
+                "LeagueName": "Women's National Cricket League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/australia/womens-national-cricket-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-the-hundred.jpg",
+        "CategoryName": "The Hundred",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-the-hundred.jpg",
+                "LeagueName": "The Hundred Men",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-hundred/the-hundred-men/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-the-hundred.jpg",
+                "LeagueName": "The Hundred Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-hundred/the-hundred-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-the-hundred.jpg",
+                "LeagueName": "The Hundred Women 2022",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-hundred/the-hundred-women-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-the-hundred.jpg",
+                "LeagueName": "The Hundred Men 2022",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-hundred/the-hundred-men-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-the-hundred.jpg",
+                "LeagueName": "The Hundred Men 2021",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-hundred/the-hundred-men-2021/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-the-hundred.jpg",
+                "LeagueName": "The Hundred Women 2021",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-hundred/the-hundred-women-2021/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+        "CategoryName": "Test Series",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Australia v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/australia-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Australia v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/australia-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Bangladesh v India",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/bangladesh-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Bangladesh v Ireland",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/bangladesh-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Bangladesh v Sri Lanka",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/bangladesh-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Bangladesh v Zimbabwe",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/bangladesh-v-zimbabwe-test/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "England v Ireland",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/england-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "England v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/england-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "England v Pakistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/england-v-pakistan-test-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "England v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/england-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "England v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/england-v-west-indies-test-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "India v Australia",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/india-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "India v Sri Lanka",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/india-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "India A in New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/india-a-in-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "New Zealand v Bangladesh",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/new-zealand-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "New Zealand v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/new-zealand-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Sri Lanka v Ireland",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/sri-lanka-v-ireland-test-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "New Zealand v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/new-zealand-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "New Zealand v Sri Lanka",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/new-zealand-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "New Zealand A v Pakistan A",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/new-zealand-a-v-pakistan-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "New Zealand A v West Indies A",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/new-zealand-a-v-west-indies-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "New Zealand XI v Bangladesh",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/new-zealand-xi-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Pakistan v Australia",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/pakistan-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Pakistan v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/pakistan-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Pakistan v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/pakistan-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "South Africa v Bangladesh",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/south-africa-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "South Africa v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/south-africa-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "South Africa A v India A",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/south-africa-a-v-india-a-four-day-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Sri Lanka v Australia",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/sri-lanka-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Sri Lanka A v England Lions",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/sri-lanka-a-v-england-lions/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Sri Lanka v Pakistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/sri-lanka-v-pakistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "West Indies v Bangladesh",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/wet-indies-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "West Indies v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/west-indies-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Zimbabwe v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/zimbabwe-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "England U19 v Australia U19",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/england-u19-v-australia-u19/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "England U19s v Sri Lanka U19s",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/england-under-19s-v-sri-lanka-under-19s/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-test.jpg",
+                "LeagueName": "Australia U19 v England U19",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-test/australia-u19-v-england-u19/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+        "CategoryName": "One Day Internationals",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Afghanistan v Ireland in UAE",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/afghanistan-v-ireland-in-uae/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Afghanistan v Netherlands",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/afghanistan-v-netherlands/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Australia v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/australia-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Australia v India",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/australia-india-odi-series-2021/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Australia v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/australia-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Australia v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/australia-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Australia v Zimbabwe",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/australia-v-zimbabwe/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Bangladesh v Afghanistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/bangladesh-v-afghanistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Bangladesh v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/bangladesh-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Bangladesh v India",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/bangladesh-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Bangladesh v Ireland",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/bangladesh-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Bangladesh v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/bangladesh-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Bangladesh v Zimbabwe",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/bangladesh-v-zimbabwe-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "England v Australia",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-v-australia-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "England v India",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "England v Ireland",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-v-ireland-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "England v Ireland",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "England v Pakistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-v-pakistan-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "England v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "England v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "England v Sri Lanka",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "India v Australia",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/india-v-australia-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "India v Australia",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/india-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "India v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/india-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "India v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/india-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "India v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/india-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "India v Sri Lanka",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/india-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "India v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/india-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Ireland v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/ireland-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Ireland v Bangladesh",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/ireland-v-bangladesh-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Ireland v Bangladesh in England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/ireland-v-bangladesh-in-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Ireland v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/ireland-v-new-zealand-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Ireland v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/ireland-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Namibia v Netherlands",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/namibia-v-netherlands-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Nepal v Papua New Guinea",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/nepal-v-papua-new-guinea/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Nepal v United Arab Emirates",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/nepal-v-united-arab-emirates/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Netherlands v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/netherlands-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Netherlands v Pakistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/netherlands-v-pakistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "Netherlands v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/netherlands-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "New Zealand v Bangladesh",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/new-zealand-v-bangladesh-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/new-zealand-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/new-zealand-v-netherlands/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/sri-lanka-v-ireland-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/new-zealand-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/new-zealand-xi-v-netherlands/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/pakistan-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/pakistan-v-bangladesh-odi/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/pakistan-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/pakistan-v-new-zealand-2/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/pakistan-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/pakistan-v-zimbabwe/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/scotland-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/south-africa-v-australia-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/south-africa-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/south-africa-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/south-africa-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/south-africa-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/south-africa-v-netherlands/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/south-africa-v-pakistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/south-africa-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/sri-lanka-v-afghanistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/sri-lanka-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/sri-lanka-v-west-indies-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/sri-lanka-v-zimbabwe/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/united-arab-emirates-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/united-arab-emirates-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/west-indies-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/west-indies-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/west-indies-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/west-indies-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/west-indies-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/west-indies-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/zimbabwe-v-afghanistan-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/zimbabwe-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/zimbabwe-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/zimbabwe-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/zimbabwe-v-netherlands/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-u19-v-australia-u19/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/england-under-19s-v-sri-lanka-under-19s/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/quadrangular-u19-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/tri-nation-u19-in-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-odi.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-odi/australia-u19-v-england-u19/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+        "CategoryName": "Twenty20 Internationals",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Afghanistan v Ireland",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/afghanistan-v-ireland-twenty20-series-in-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Afghanistan v Pakistan in UAE",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/afghanistan-v-pakistan-in-uae/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Afghanistan v Zimbabwe",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/afghanistan-v-zimbabwe/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Australia v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/australia-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Australia v India",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/australia-v-india-twenty-20-series-2020/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Australia v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/australia-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Australia v Sri Lanka",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/australia-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Australia v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/australia-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Bangladesh v Afghanistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/bangladesh-v-afghanistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Bangladesh v Australia",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/bangladesh-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Bangladesh v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/bangladesh-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Bangladesh v Ireland",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/bangladesh-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Bangladesh v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/bangladesh-v-new-zealand-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Bangladesh v Pakistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/bangladesh-v-pakistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Bangladesh V Zimbabwe",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/bangladesh-v-zimbabwe-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "England v Australia",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/england-v-australia-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "England v India",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/england-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "England v Pakistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/england-v-pakistan-twenty20/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "England v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/england-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "England v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/england-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "England v Sri Lanka",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/england-v-sri-lanka-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "India v Australia",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/india-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "India v England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/india-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "India v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/india-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "India v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/india-v-new-zealand-2021/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "India v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/india-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "India v South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/india-v-south-africa-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "India v Sri Lanka",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/india-v-sri-lanka-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "India v Sri Lanka",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/india-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "India v West Indies",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/india-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Ireland v India",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/ireland-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Ireland v Afghanistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/ireland-v-afghanistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Ireland v South Africa in England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/ireland-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Ireland v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/ireland-v-new-zealand-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Ireland v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/ireland-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Ireland v Pakistan",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/ireland-v-pakistan-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Ireland v Zimbabwe",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/ireland-v-zimbabwe/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Tri-Series in Nepal",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/tri-series-in-nepal/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Nepal Tri-Nation Series",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/nepal-tri-nation-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "Netherlands v New Zealand",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/netherlands-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/new-zealand-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/new-zealand-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/new-zealand-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/new-zealand-v-india-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/new-zealand-v-netherlands/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/new-zealand-v-pakistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/new-zealand-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/new-zealand-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/new-zealand-xi-v-netherlands-t20/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/oman-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/pakistan-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/pakistan-v-bangladesh-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/pakistan-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/pakistan-v-england-2021/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/pakistan-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/pakistan-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/pakistan-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/pakistan-v-zimbabwe/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/scotland-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/scotland-v-zimbabwe/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/south-africa-v-australia-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/south-africa-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/south-africa-v-england-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/south-africa-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/south-africa-v-pakistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/south-africa-v-west-indies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/sri-lanka-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/sri-lanka-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/sri-lanka-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/sri-lanka-v-west-indies-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/twenty20-tri-series-in-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/uae-summer-t20-bash/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/united-arab-emirates-v-afghanistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/united-arab-emirates-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/united-arab-emirates-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/united-states-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/west-indies-v-australia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/west-indies-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/west-indies-v-england/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/west-indies-v-india/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/west-indies-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/west-indies-v-new-zealand/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/west-indies-v-pakistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/west-indies-v-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/west-indies-v-sri-lanka/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/zimbabwe-v-afghanistan-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/zimbabwe-v-bangladesh/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/zimbabwe-v-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/zimbabwe-v-namibia-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/zimbabwe-v-pakistan/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/england-under-19s-v-west-indies-under-19s-twenty20/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/quadrangular-twenty20-series-in-oman/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-intl-t20.jpg",
+                "LeagueName": "",
+                "LeagueLink": "https://www.livescore.com/en/cricket/intl-t20/australia-u19-v-england-u19/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+        "CategoryName": "International Tours",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "India v India A",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/india-v-india-a/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Australia A v England Lions Four-Day Match",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/australia-a-v-england-lions-four-day-match/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "England in New Zealand Tour Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/england-in-new-zealand-tour-matches/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "India A v New Zealand A Four-Day Series",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/india-a-v-new-zealand-a-four-day-series/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "India A v New Zealand A One-Day Series",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/india-a-v-new-zealand-a-one-day-series/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "India in England Tour Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/india-in-england-tour-matches/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "India in England",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/india-in-england-tour-matches-2021/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Ireland in England Tour Match",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/ireland-in-england-tour-match/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "New Zealand in England Tour Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/new-zealand-in-england-tour-matches/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "New Zealand A v Australia A Four-Day Series",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/new-zealand-a-v-australia-a-four-day-series/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "South Africa in Australia Tour Match",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/south-africa-in-australia-tour-match/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "South Africa in England Tour Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/south-africa-in-england-tour-matches/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Sri Lanka A v Australia A",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/sri-lanka-a-v-australia-a/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Sri Lanka A v Australia A Four-Day Series",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/sri-lanka-a-v-australia-a-four-day-series/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "England Lions in Sri Lanka Warm-up match",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/england-lions-in-sri-lanka-warm-up-match/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Sri Lanka A v England Lions One-Day Series",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/sri-lanka-a-v-england-lions-one-day-series/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Sri Lanka in New Zealand Tour Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/sri-lanka-in-new-zealand-tour-matches/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Sri Lanka Development XI in England Tour",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/sri-lanka-development-xi-in-england-tour/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Cricket Australia XI v New Zealand One-Day Match",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/cricket-australia-xi-v-new-zealand-one-day-match/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "India A in England Tour Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/india-a-in-england-tour-matches/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Pakistan in England Tour Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/pakistan-in-england-tour-matches/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Sri Lanka in England Tour Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/sri-lanka-in-england-tour-matches/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "West Indies in Australia Tour Match",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/west-indies-in-australia-tour-match/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "West Indies in South Africa Tour Match",
+                "LeagueLink": "https://www.livescore.com/en/cricket/international-tours/west-indies-in-south-africa-tour-match/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-t20-world-cup.jpg",
+        "CategoryName": "ICC Women's T20 World Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-t20-world-cup.jpg",
+                "LeagueName": "ICC Women's T20 World Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-womens-t20-world-cup/icc-womens-t20-world-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-t20-world-cup.jpg",
+                "LeagueName": "Qualifier",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-womens-t20-world-cup/qualifier/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-t20-world-cup.jpg",
+                "LeagueName": "Women: Warm-up matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-womens-t20-world-cup/women-warm-up-matches/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-womens-test-series.jpg",
+        "CategoryName": "Women's Test Series",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-test-series.jpg",
+                "LeagueName": "Australia Women v India Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-test-series/australia-women-v-india-women-only-test/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-test-series.jpg",
+                "LeagueName": "England A Women v Australia Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-test-series/england-a-women-v-australia-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-test-series.jpg",
+                "LeagueName": "England Women v Australia A Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-test-series/england-women-v-australia-a-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-test-series.jpg",
+                "LeagueName": "England Women v India Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-test-series/england-women-v-india-women-test-match/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-test-series.jpg",
+                "LeagueName": "England Women v South Africa Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-test-series/england-women-v-south-africa-women-only-test/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+        "CategoryName": "Women's ODI",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Australia Women v Pakistan Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/australia-women-v-pakistan-women-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Australia A Women v England A Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/australia-a-women-v-england-a-women-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "England A Women v Australia A Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/england-a-women-v-australia-a-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "England Women v India Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/england-women-v-india-women-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "England Women v South Africa Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/england-women-v-south-africa-women-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "England Women v Sri Lanka Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/england-women-v-sri-lanka-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Ireland Women v Australia Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/ireland-women-v-australia-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Ireland Women v South Africa Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/ireland-women-v-south-africa-women-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Netherlands Women v Ireland Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/netherlands-women-v-ireland-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "New Zealand Women v Bangladesh Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/new-zealand-women-v-bangladesh-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "New Zealand Women v India Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/new-zealand-women-v-india-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Pakistan Women v Ireland Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/pakistan-women-v-ireland-women-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Pakistan Women v Sri Lanka Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/pakistan-women-v-sri-lanka-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "South Africa Women v West Indies Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/south-africa-women-v-west-indies-women-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Sri Lanka Women v Bangladesh Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/sri-lanka-women-v-bangladesh-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Sri Lanka Women v India Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/sri-lanka-women-v-india-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Thailand Women v Netherlands Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/thailand-women-v-netherlands-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Thailand Women v Zimbabwe Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/thailand-women-v-zimbabwe-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "West Indies Women v England Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/west-indies-women-v-england-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "Zimbabwe Women v Ireland Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/zimbabwe-women-v-ireland-women-odi-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "West Indies Women v Ireland Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/west-indies-women-v-ireland-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-odi.jpg",
+                "LeagueName": "West Indies Women v New Zealand Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-odi/west-indies-women-v-new-zealand-women/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+        "CategoryName": "Women's Twenty20",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Women's Twenty20 Asia Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/womens-asia-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Australia Women v India Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/australia-women-v-india-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Australia Women v Pakistan Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/australia-women-pakistan-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Australia A Women v England A Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/australia-a-women-v-england-a-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Australian Women's Under 19s Twenty20 Exhibition Series",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/australian-womens-under-19s-twenty20-exhibition-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "England A Women v Australia A Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/england-a-women-v-australia-a-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "England Women v India Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/england-women-v-india-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "England Women v New Zealand Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/england-women-v-new-zealand-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "England Women v South Africa Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/england-women-v-south-africa-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "England Women v Sri Lanka Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/england-women-v-sri-lanka-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "India Women v Australia Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/india-women-v-australia-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Ireland Women v Netherlands Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/ireland-women-v-netherlands-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Ireland Women v Scotland Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/ireland-women-v-scotland-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Ireland Women v South Africa Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/ireland-women-v-south-africa-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Women's Twenty20 Tri-Series in Ireland",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/womens-twenty20-tri-series-in-ireland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Tri-Series in South Africa",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/tri-series-in-south-africa/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Netherlands Women v Ireland Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/netherlands-women-v-ireland-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "New Zealand Women v Australia Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/new-zealand-women-v-australia-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "New Zealand Women v Bangladesh Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/new-zealand-women-v-bangladesh-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "New Zealand Women v England Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/new-zealand-women-v-england-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Pakistan Women v Ireland Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/pakistan-women-v-ireland-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Pakistan Women v Sri Lanka Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/pakistan-women-v-sri-lanka-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Scotland Women v Ireland Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/scotland-women-v-ireland-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "South Africa U19 Women v India U19 Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/south-africa-u19-women-v-india-u19-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "South Africa Women v Pakistan Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/south-africa-women-v-pakistan-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Sri Lanka Women v Bangladesh Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/sri-lanka-women-v-bangladesh-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Sri Lanka Women v India Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/sri-lanka-women-v-india-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Thailand Women v Netherlands Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/thailand-women-v-netherlands-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Thailand Women v Zimbabwe Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/thailand-women-v-zimbabwe-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "West Indies Women v England Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/west-indies-women-v-england-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "West Indies Women v Ireland Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/west-indies-women-v-ireland-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "West Indies Women v New Zealand Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/west-indies-women-v-new-zealand-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "West Indies Women A v Pakistan Women A",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/west-indies-women-a-v-pakistan-women-a-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "West Indies Women v Pakistan Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/west-indies-women-v-pakistan-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "West Indies Women v South Africa Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/west-indies-women-v-south-africa-women-twenty20-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-womens-twenty20.jpg",
+                "LeagueName": "Women's Commonwealth Games",
+                "LeagueLink": "https://www.livescore.com/en/cricket/womens-twenty20/womens-commonwealth-games-twenty20/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-bangladesh.jpg",
+        "CategoryName": "Bangladesh",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-bangladesh.jpg",
+                "LeagueName": "Bangladesh Premier League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/bangladesh/bangladesh-premier-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-new-zealand.jpg",
+        "CategoryName": "New Zealand",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-new-zealand.jpg",
+                "LeagueName": "Plunket Shield",
+                "LeagueLink": "https://www.livescore.com/en/cricket/new-zealand/plunket-shield/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-new-zealand.jpg",
+                "LeagueName": "The Ford Trophy",
+                "LeagueLink": "https://www.livescore.com/en/cricket/new-zealand/the-ford-trophy/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-new-zealand.jpg",
+                "LeagueName": "Super Smash",
+                "LeagueLink": "https://www.livescore.com/en/cricket/new-zealand/super-smash/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-new-zealand.jpg",
+                "LeagueName": "Women's Super Smash",
+                "LeagueLink": "https://www.livescore.com/en/cricket/new-zealand/womens-super-smash/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-pakistan.jpg",
+        "CategoryName": "Pakistan",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-pakistan.jpg",
+                "LeagueName": "Super League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/pakistan/super-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-south-africa.jpg",
+        "CategoryName": "South Africa",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-south-africa.jpg",
+                "LeagueName": "CSA T20 Challenge Division 1",
+                "LeagueLink": "https://www.livescore.com/en/cricket/south-africa/csa-t20-challenge-division-1/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-south-africa.jpg",
+                "LeagueName": "CSA Division 2 - T20 Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/south-africa/csa-division-2-t20-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-south-africa.jpg",
+                "LeagueName": "CSA Four-Day Series: Division 1",
+                "LeagueLink": "https://www.livescore.com/en/cricket/south-africa/csa-four-day-series-division-1/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-south-africa.jpg",
+                "LeagueName": "CSA Four-Day Series: Division 2",
+                "LeagueLink": "https://www.livescore.com/en/cricket/south-africa/csa-four-day-series-division-2/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-south-africa.jpg",
+                "LeagueName": "CSA One-Day Cup: Division 1",
+                "LeagueLink": "https://www.livescore.com/en/cricket/south-africa/csa-one-day-cup-division-1/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-south-africa.jpg",
+                "LeagueName": "CSA One-Day Cup: Division 2",
+                "LeagueLink": "https://www.livescore.com/en/cricket/south-africa/csa-one-day-cup-division-2/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-south-africa.jpg",
+                "LeagueName": "SA20 League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/south-africa/sa20-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-sri-lanka.jpg",
+        "CategoryName": "Sri Lanka",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-sri-lanka.jpg",
+                "LeagueName": "Lanka Premier League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/sri-lanka/lanka-premier-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-united-arab-emirates.jpg",
+        "CategoryName": "United Arab Emirates",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-united-arab-emirates.jpg",
+                "LeagueName": "Abu Dhabi T10 League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/united-arab-emirates/t10-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-united-arab-emirates.jpg",
+                "LeagueName": "International League T20",
+                "LeagueLink": "https://www.livescore.com/en/cricket/united-arab-emirates/international-league-t20/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+        "CategoryName": "West Indies",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Trinidad T10 Blast",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/trinidad-t10-blast/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "West Indies Championship",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/west-indies-championship/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Headley Weekes Tri-Series",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/headley-weekes-tri-series/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Caribbean Premier League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/caribbean-premier-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "The Sixty Men",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/the-sixty-men/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Jamaica T10",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/jamaica-t10/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Nature Isle Dominica T10",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/nature-isle-dominica-t10/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Super50 Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/super50-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Best v Best Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/best-v-best-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Women's T20 Blaze",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/womens-t20-blaze/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Women's Super50 Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/womens-super50-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "The Sixty Women",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/the-sixty-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-west-indies.jpg",
+                "LeagueName": "Women's Caribbean Premier League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/west-indies/womens-caribbean-premier-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-asia-cup.jpg",
+        "CategoryName": "Asia Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-asia-cup.jpg",
+                "LeagueName": "Asia Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/asia-cup/asia-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-asia-cup.jpg",
+                "LeagueName": "Asia Cup Qualifiers",
+                "LeagueLink": "https://www.livescore.com/en/cricket/asia-cup/asia-cup-qualifiers/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+        "CategoryName": "ICC Men's T20 World Cup 2022",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Final",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-world-t20-2022/final/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Semi-finals",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-world-t20-2022/semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Super 12",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-world-t20-2022/super-12/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "First Round",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-world-t20-2022/first-round/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Warm-Up Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-world-t20-2022/warm-up-matches/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Global Qualifier 1",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-world-t20-2022/global-qualifier-1/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Global Qualifier 2",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-world-t20-2022/global-qualifier-2/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+        "CategoryName": "ICC Men's T20 World Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "European Qualification",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-mens-t20-world-cup/european-qualification/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-icc-mens-one-day-world-cup.jpg",
+        "CategoryName": "ICC Men's One-Day World Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-mens-one-day-world-cup.jpg",
+                "LeagueName": "2023 World Cup Qualification Playoff",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-mens-one-day-world-cup/2023-world-cup-qualification-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-mens-one-day-world-cup.jpg",
+                "LeagueName": "World Cup League 2",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-mens-one-day-world-cup/world-cup-league-2/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-icc-mens-u19-one-day-world-cup.jpg",
+        "CategoryName": "ICC Men's U19 One Day World Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-mens-u19-one-day-world-cup.jpg",
+                "LeagueName": "Group Stage",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-mens-u19-one-day-world-cup/group-stage/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-mens-u19-one-day-world-cup.jpg",
+                "LeagueName": "Plate League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-mens-u19-one-day-world-cup/plate-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-mens-u19-one-day-world-cup.jpg",
+                "LeagueName": "Super League",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-mens-u19-one-day-world-cup/super-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-one-day-world-cup.jpg",
+        "CategoryName": "ICC Women's One Day World Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-one-day-world-cup.jpg",
+                "LeagueName": "ICC Women's Cricket World Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-womens-one-day-world-cup/icc-womens-cricket-world-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-one-day-world-cup.jpg",
+                "LeagueName": "ICC Women's Cricket World Cup Qualifier",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-womens-one-day-world-cup/icc-womens-cricket-world-cup-qualifier/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-one-day-world-cup.jpg",
+                "LeagueName": "ICC Women's World Cup Warm-Up Matches",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-womens-one-day-world-cup/icc-womens-world-cup-warm-up-matches/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-u19-t20-world-cup.jpg",
+        "CategoryName": "ICC Women's U19 T20 World Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xcr-icc-womens-u19-t20-world-cup.jpg",
+                "LeagueName": "ICC Women's U19 T20 World Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/icc-womens-u19-t20-world-cup/icc-womens-u19-t20-world-cup/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+        "CategoryName": "The Ashes",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "The Ashes",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-ashes/the-ashes/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "The Ashes 2022",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-ashes/the-ashes-2021-2022/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Women's Ashes",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-ashes/womens-ashes/"
+            },
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Women's Ashes 2022",
+                "LeagueLink": "https://www.livescore.com/en/cricket/the-ashes/womens-ashes-2022/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+        "CategoryName": "ACC Premier Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "ACC Men's Premier Cup",
+                "LeagueLink": "https://www.livescore.com/en/cricket/acc-premier-cup/acc-mens-premier-cup/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+        "CategoryName": "FairBreak Invitational",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://www.livescore.com/ls-web-assets/images/international-cricket-65417a6dab2dddf9cefded7f576866cc.webp",
+                "LeagueName": "Fairbreak Invitational",
+                "LeagueLink": "https://www.livescore.com/en/cricket/fairbreak-invitational/fairbreak-invitational/"
+            }
+        ]
+    }
+]

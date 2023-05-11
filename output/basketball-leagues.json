@@ -1,0 +1,2165 @@
+[
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+        "CategoryName": "NBA",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+                "LeagueName": "Play-offs",
+                "LeagueLink": "https://www.livescore.com/en/basketball/nba/play-offs/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+                "LeagueName": "Regular season",
+                "LeagueLink": "https://www.livescore.com/en/basketball/nba/regular-season/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+                "LeagueName": "Pre-season",
+                "LeagueLink": "https://www.livescore.com/en/basketball/nba/pre-season/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+                "LeagueName": "All-Star Game",
+                "LeagueLink": "https://www.livescore.com/en/basketball/nba/all-star-game/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+                "LeagueName": "California Classic Summer League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/nba/california-classic-summer-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+                "LeagueName": "Salt Lake City Summer League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/nba/salt-lake-city-summer-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+                "LeagueName": "Las Vegas Summer League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/nba/las-vegas-summer-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+                "LeagueName": "Las Vegas Summer League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/nba/las-vegas-summer-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-nba.jpg",
+                "LeagueName": "Las Vegas Summer League: Placement Matches",
+                "LeagueLink": "https://www.livescore.com/en/basketball/nba/las-vegas-summer-league-placement-matches/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-ncaa.jpg",
+        "CategoryName": "NCAA",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-ncaa.jpg",
+                "LeagueName": "March Madness",
+                "LeagueLink": "https://www.livescore.com/en/basketball/ncaa/march-madness/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-ncaa.jpg",
+                "LeagueName": "Regular Season",
+                "LeagueLink": "https://www.livescore.com/en/basketball/ncaa/ncaa-men/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-ncaa.jpg",
+                "LeagueName": "National Invitation Tournament",
+                "LeagueLink": "https://www.livescore.com/en/basketball/ncaa/national-invitation-tournament/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-euro-league.jpg",
+        "CategoryName": "EuroLeague",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-euro-league.jpg",
+                "LeagueName": "EuroLeague: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/euro-league/euroleague-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-euro-league.jpg",
+                "LeagueName": "EuroLeague: Regular season",
+                "LeagueLink": "https://www.livescore.com/en/basketball/euro-league/euroleague-regular-season/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+        "CategoryName": "EuroBasket",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Qualification: group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/qualification-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Qualification: group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/qualification-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Qualification: group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/qualification-group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Qualification: group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/qualification-group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Qualification: group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/qualification-group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Qualification: group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/qualification-group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Qualification: group G",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/qualification-group-g/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket.jpg",
+                "LeagueName": "Qualification: group H",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket/qualification-group-h/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+        "CategoryName": "EuroBasket Women",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group G",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-g/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group H",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-h/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group I",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-i/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-women.jpg",
+                "LeagueName": "Qualification: Group J",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-women/qualification-group-j/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+        "CategoryName": "EuroBasket U18",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division A: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-a-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division A: Placement Matches",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-a-placement-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division A: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-a-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division A: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-a-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division A: Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-a-group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division A: Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-a-group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division B: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-b-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division B: Placement Matches",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-b-placement-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division B: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-b-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division B: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-b-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division B: Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-b-group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division B: Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-b-group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division B: Group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-b-group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division B: Group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-b-group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division C: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-c-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division C: Placement Matches",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-c-placement-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division C: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-c-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Division C: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/division-c-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18.jpg",
+                "LeagueName": "Placement Matches",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18/placement-matches/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+        "CategoryName": "Champions League",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Qualification Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/qualification-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group I",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-i/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group J",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-j/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group K",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-k/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group L",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-l/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group G",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-g/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Group H",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/group-h/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Qualification",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/qualification-2020/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-champions-league.jpg",
+                "LeagueName": "Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/champions-league/play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+        "CategoryName": "FIBA Europe Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group G",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-g/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group H",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-h/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group I",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-i/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group J",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-j-2021-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group K",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-k/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurochallenge.jpg",
+                "LeagueName": "Group L",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurochallenge/group-l/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-euro-cup.jpg",
+        "CategoryName": "EuroCup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-euro-cup.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/euro-cup/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-euro-cup.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/euro-cup/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-euro-cup.jpg",
+                "LeagueName": "Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/euro-cup/play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-asia-cup.jpg",
+        "CategoryName": "Asia Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-cup.jpg",
+                "LeagueName": "Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-cup/play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-cup.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-cup/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-cup.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-cup/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-cup.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-cup/group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-cup.jpg",
+                "LeagueName": "Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-cup/group-d/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-adriatic.jpg",
+        "CategoryName": "Adriatic",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-adriatic.jpg",
+                "LeagueName": "ABA League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/adriatic/aba-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-adriatic.jpg",
+                "LeagueName": "ABA League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/adriatic/aba-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-adriatic.jpg",
+                "LeagueName": "ABA League: Qualification",
+                "LeagueLink": "https://www.livescore.com/en/basketball/adriatic/aba-league-qualification/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-baltic.jpg",
+        "CategoryName": "Latvian-Estonian League",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-baltic.jpg",
+                "LeagueName": "Regular season",
+                "LeagueLink": "https://www.livescore.com/en/basketball/baltic/regular-season/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-baltic.jpg",
+                "LeagueName": "Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/baltic/play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-bnxt-league.jpg",
+        "CategoryName": "BNXT League",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-bnxt-league.jpg",
+                "LeagueName": "BNXT League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/bnxt-league/bnxt-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-bnxt-league.jpg",
+                "LeagueName": "BNXT League: Elite Gold",
+                "LeagueLink": "https://www.livescore.com/en/basketball/bnxt-league/bnxt-league-elite-gold/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-bnxt-league.jpg",
+                "LeagueName": "BNXT League: Elite Silver",
+                "LeagueLink": "https://www.livescore.com/en/basketball/bnxt-league/bnxt-league-elite-silver/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-bnxt-league.jpg",
+                "LeagueName": "Domestic Belgium: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/bnxt-league/domestic-belgium-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-bnxt-league.jpg",
+                "LeagueName": "Domestic Belgium",
+                "LeagueLink": "https://www.livescore.com/en/basketball/bnxt-league/domestic-belgium/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-bnxt-league.jpg",
+                "LeagueName": "Domestic Netherlands: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/bnxt-league/domestic-netherlands-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-bnxt-league.jpg",
+                "LeagueName": "Domestic Netherlands",
+                "LeagueLink": "https://www.livescore.com/en/basketball/bnxt-league/domestic-netherlands/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-wnba.jpg",
+        "CategoryName": "WNBA",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-wnba.jpg",
+                "LeagueName": "WNBA: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/wnba/wnba-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-wnba.jpg",
+                "LeagueName": "WNBA: Regular season",
+                "LeagueLink": "https://www.livescore.com/en/basketball/wnba/wnba-regular-season/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-wnba.jpg",
+                "LeagueName": "All-Star Game",
+                "LeagueLink": "https://www.livescore.com/en/basketball/wnba/all-star-game/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+        "CategoryName": "Olympics Men",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Gold Medal",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/gold-medal/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Bronze Medal",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/bronze-medal/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Semi-Finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Quarter-Finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/quarter-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "3x3: Gold Medal",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/3x3-gold-medal/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "3x3: Bronze Medal",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/3x3-bronze-medal/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "3x3: Semi-Finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/3x3-semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "3x3: Quarter-Finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/3x3-quarter-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "3x3",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/3x3/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Qualification: Canada",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/qualification-canada/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Qualification: Croatia",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/qualification-croatia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Qualification: Lithuania",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/qualification-lithuania/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Qualification: Serbia",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/qualification-serbia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-men.jpg",
+                "LeagueName": "Qualification: Final Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-men/qualification-final-stage/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+        "CategoryName": "Olympics Women",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "Semi-Finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "Gold Medal",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/gold-medal/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "Bronze Medal",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/bronze-medal/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "Quarter-Finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/quarter-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "3x3: Gold Medal",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/3x3-gold-medal/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "3x3: Bronze Medal",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/3x3-bronze-medal/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "3x3: Semi-Finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/3x3-semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "3x3: Quarter-Finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/3x3-quarter-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-olympics-women.jpg",
+                "LeagueName": "3x3",
+                "LeagueLink": "https://www.livescore.com/en/basketball/olympics-women/3x3/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+        "CategoryName": "World Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Placement matches",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/placement-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Africa: 2nd Round: Group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-africa-second-round-group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Africa: 2nd Round: Group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-africa-second-round-group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Asia: 2nd Round: Group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-asia-second-round-group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Asia: 2nd Round: Group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-asia-second-round-group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: America: 1st Round: Group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-america-2nd-round-group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: America: 2nd Round: Group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-america-second-round-group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 2nd Round: Group I",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-second-round-group-i/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 2nd Round: Group J",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-second-round-group-j/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 2nd Round: Group K",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-second-round-group-k/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 2nd Round: Group L",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-second-round-group-l/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Africa: 1st Round: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-africa-1st-round-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Africa: 1st Round: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-africa-1st-round-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Africa: 1st Round: Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-africa-1st-round-group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Africa: 1st Round: Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-africa-1st-round-group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Asia: 1st Round: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-asia-1st-round-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Asia: 1st Round: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-asia-1st-round-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Asia: 1st Round: Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-asia-1st-round-group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Asia: 1st Round: Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-asia-1st-round-group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: America: 1st Round: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-america-1st-round-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: America: 1st Round: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-america-1st-round-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: America: 1st Round: Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-america-1st-round-group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: America: 1st Round: Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-america-1st-round-group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 1st Round: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-1st-round-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 1st Round: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-1st-round-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 1st Round: Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-1st-round-group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 1st Round: Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-1st-round-group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 1st Round: Group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-1st-round-group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 1st Round: Group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-1st-round-group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 1st Round: Group G",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-1st-round-group-g/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Qualification: Europe: 1st Round: Group H",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/qualification-europe-1st-round-group-h/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Group E",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Group F",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Group G",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/group-g/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-world-cup.jpg",
+                "LeagueName": "Group H",
+                "LeagueLink": "https://www.livescore.com/en/basketball/world-cup/group-h/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-womens-world-cup.jpg",
+        "CategoryName": "Women's World Cup",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-womens-world-cup.jpg",
+                "LeagueName": "Final",
+                "LeagueLink": "https://www.livescore.com/en/basketball/womens-world-cup/final/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-womens-world-cup.jpg",
+                "LeagueName": "Third Place Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/womens-world-cup/third-place-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-womens-world-cup.jpg",
+                "LeagueName": "Semi-finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/womens-world-cup/semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-womens-world-cup.jpg",
+                "LeagueName": "Quarter-finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/womens-world-cup/quarter-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-womens-world-cup.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/womens-world-cup/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-womens-world-cup.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/womens-world-cup/group-b/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18-women.jpg",
+        "CategoryName": "Women's EuroBasket U18",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18-women.jpg",
+                "LeagueName": "Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18-women/play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18-women.jpg",
+                "LeagueName": "Division A: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18-women/division-a-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18-women.jpg",
+                "LeagueName": "Division A: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18-women/division-a-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18-women.jpg",
+                "LeagueName": "Division A: Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18-women/division-a-group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-eurobasket-u18-women.jpg",
+                "LeagueName": "Division A: Group D",
+                "LeagueLink": "https://www.livescore.com/en/basketball/eurobasket-u18-women/division-a-group-d/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-asia-u18-championship.jpg",
+        "CategoryName": "Asia U18 Championship",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-u18-championship.jpg",
+                "LeagueName": "Final",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-u18-championship/final/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-u18-championship.jpg",
+                "LeagueName": "Third Place Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-u18-championship/third-place-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-u18-championship.jpg",
+                "LeagueName": "Semi-finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-u18-championship/semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-u18-championship.jpg",
+                "LeagueName": "Placement matches",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-u18-championship/placement-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-u18-championship.jpg",
+                "LeagueName": "Quarter-finals",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-u18-championship/quarterfinals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-u18-championship.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-u18-championship/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-u18-championship.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-u18-championship/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-asia-u18-championship.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/basketball/asia-u18-championship/group-c/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-argentina.jpg",
+        "CategoryName": "Argentina",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-argentina.jpg",
+                "LeagueName": "LNB",
+                "LeagueLink": "https://www.livescore.com/en/basketball/argentina/lnb/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-argentina.jpg",
+                "LeagueName": "LNB: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/argentina/lnb-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-argentina.jpg",
+                "LeagueName": "LNB: Relegation play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/argentina/lnb-relegation-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-australia.jpg",
+        "CategoryName": "Australia",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-australia.jpg",
+                "LeagueName": "NBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/australia/nbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-australia.jpg",
+                "LeagueName": "NBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/australia/nbl/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-austria.jpg",
+        "CategoryName": "Austria",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-austria.jpg",
+                "LeagueName": "Superliga: Winners Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/austria/superliga-winners-stage/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-austria.jpg",
+                "LeagueName": "Superliga",
+                "LeagueLink": "https://www.livescore.com/en/basketball/austria/superliga/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-austria.jpg",
+                "LeagueName": "Superliga: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/austria/superliga-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-austria.jpg",
+                "LeagueName": "Superliga: Losers Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/austria/superliga-losers-stage/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-belarus.jpg",
+        "CategoryName": "Belarus",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-belarus.jpg",
+                "LeagueName": "Premier League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/belarus/premier-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-belarus.jpg",
+                "LeagueName": "Premier League: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/belarus/premier-league-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-belarus.jpg",
+                "LeagueName": "Premier League: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/belarus/premier-league-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-belarus.jpg",
+                "LeagueName": "Premier League: Placement Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/belarus/premier-league-placement-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-belgium.jpg",
+        "CategoryName": "Belgium",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-belgium.jpg",
+                "LeagueName": "Pro Basketball League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/belgium/pro-basketball-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-belgium.jpg",
+                "LeagueName": "Pro Basketball League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/belgium/pro-basketball-league-2020-2021/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-brazil.jpg",
+        "CategoryName": "Brazil",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-brazil.jpg",
+                "LeagueName": "NBB",
+                "LeagueLink": "https://www.livescore.com/en/basketball/brazil/nbb/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-brazil.jpg",
+                "LeagueName": "NBB: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/brazil/nbb-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-bulgaria.jpg",
+        "CategoryName": "Bulgaria",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-bulgaria.jpg",
+                "LeagueName": "NBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/bulgaria/nbl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-bulgaria.jpg",
+                "LeagueName": "NBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/bulgaria/nbl-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-canada.jpg",
+        "CategoryName": "Canada",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-canada.jpg",
+                "LeagueName": "NBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/canada/nbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-canada.jpg",
+                "LeagueName": "NBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/canada/nbl/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-china.jpg",
+        "CategoryName": "China",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-china.jpg",
+                "LeagueName": "CBA: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/china/cba-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-china.jpg",
+                "LeagueName": "CBA",
+                "LeagueLink": "https://www.livescore.com/en/basketball/china/cba/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-croatia.jpg",
+        "CategoryName": "Croatia",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-croatia.jpg",
+                "LeagueName": "Premijer liga: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/croatia/premijer-liga-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-croatia.jpg",
+                "LeagueName": "Premijer liga: Championship Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/croatia/premijer-liga-championship-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-croatia.jpg",
+                "LeagueName": "Premijer liga",
+                "LeagueLink": "https://www.livescore.com/en/basketball/croatia/premijer-liga/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-croatia.jpg",
+                "LeagueName": "Premijer liga: Relegation Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/croatia/premijer-liga-relegation-group/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-cyprus.jpg",
+        "CategoryName": "Cyprus",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-cyprus.jpg",
+                "LeagueName": "A League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/cyprus/a-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-cyprus.jpg",
+                "LeagueName": "A League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/cyprus/a-league-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+        "CategoryName": "Czech Republic",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+                "LeagueName": "NBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/czech-republic/nbl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+                "LeagueName": "NBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/czech-republic/nbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+                "LeagueName": "NBL: group A1",
+                "LeagueLink": "https://www.livescore.com/en/basketball/czech-republic/nbl-group-a1/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+                "LeagueName": "NBL: group A2",
+                "LeagueLink": "https://www.livescore.com/en/basketball/czech-republic/nbl-group-a2/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+                "LeagueName": "NBL: Qualification Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/czech-republic/nbl-qualification-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+                "LeagueName": "ZBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/czech-republic/zbl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+                "LeagueName": "ZBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/czech-republic/zbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+                "LeagueName": "ZBL: Placement matches",
+                "LeagueLink": "https://www.livescore.com/en/basketball/czech-republic/zbl-placement-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-czech-republic.jpg",
+                "LeagueName": "ZBL: Relegation Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/czech-republic/zbl-relegation-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+        "CategoryName": "Denmark",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+                "LeagueName": "Basket Ligaen: Winners Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/denmark/basket-ligaen-winners-stage/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+                "LeagueName": "Basket Ligaen",
+                "LeagueLink": "https://www.livescore.com/en/basketball/denmark/basket-ligaen/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+                "LeagueName": "Basket Ligaen: Losers Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/denmark/basket-ligaen-losers-stage/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+                "LeagueName": "Basket Ligaen: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/denmark/basket-ligaen-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+                "LeagueName": "Basket Ligaen: Placement Matches",
+                "LeagueLink": "https://www.livescore.com/en/basketball/denmark/basket-ligaen-placement-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+                "LeagueName": "Cup",
+                "LeagueLink": "https://www.livescore.com/en/basketball/denmark/cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+                "LeagueName": "Dameligaen",
+                "LeagueLink": "https://www.livescore.com/en/basketball/denmark/dameligaen/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+                "LeagueName": "Dameligaen: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/denmark/dameligaen-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-denmark.jpg",
+                "LeagueName": "Cup Women",
+                "LeagueLink": "https://www.livescore.com/en/basketball/denmark/cup-women/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-estonia.jpg",
+        "CategoryName": "Estonia",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-estonia.jpg",
+                "LeagueName": "KML: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/estonia/kml-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+        "CategoryName": "Finland",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Korisliiga: Championship Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/korisliiga-championship-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Korisliiga: Relegation Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/korisliiga-relegation-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Korisliiga",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/korisliiga/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Korisliiga: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/korisliiga-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "I Divisioona A: Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/i-divisioona-a-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "I Divisioona A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/i-divisioona-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "I Divisioona B: Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/i-divisioona-b-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "I Divisioona B: Relegation Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/i-divisioona-b-relegation-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "I Divisioona B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/i-divisioona-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Korisliiga Women: Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/naisten-korisliiga-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Korisliiga Women: Playoff Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/naisten-korisliiga-playoff-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Korisliiga Women: Relegation Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/naisten-korisliiga-relegation-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Korisliiga Women",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/naisten-korisliiga/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Naisten I Divisioona: Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/naisten-i-divisioona-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Naisten I Divisioona: Relegation Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/naisten-i-divisioona-relegation-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-finland.jpg",
+                "LeagueName": "Naisten I Divisioona",
+                "LeagueLink": "https://www.livescore.com/en/basketball/finland/naisten-i-divisioona/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-france.jpg",
+        "CategoryName": "France",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-france.jpg",
+                "LeagueName": "LNB Pro A: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/france/lnb-pro-a-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-france.jpg",
+                "LeagueName": "LNB Pro A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/france/lnb-pro-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-france.jpg",
+                "LeagueName": "Pro B: Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/france/pro-b-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-france.jpg",
+                "LeagueName": "Pro B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/france/pro-b-2020/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-france.jpg",
+                "LeagueName": "French Cup",
+                "LeagueLink": "https://www.livescore.com/en/basketball/france/french-cup/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-germany.jpg",
+        "CategoryName": "Germany",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-germany.jpg",
+                "LeagueName": "BBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/germany/bbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-germany.jpg",
+                "LeagueName": "BBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/germany/bbl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-germany.jpg",
+                "LeagueName": "BBL Cup",
+                "LeagueLink": "https://www.livescore.com/en/basketball/germany/bbl-cup/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-britain.jpg",
+        "CategoryName": "Great Britain",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-britain.jpg",
+                "LeagueName": "BBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/britain/bbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-britain.jpg",
+                "LeagueName": "BBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/britain/bbl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-britain.jpg",
+                "LeagueName": "BBL Trophy",
+                "LeagueLink": "https://www.livescore.com/en/basketball/britain/bbl-trophy/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-britain.jpg",
+                "LeagueName": "BBL Cup",
+                "LeagueLink": "https://www.livescore.com/en/basketball/britain/bbl-cup/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-greece.jpg",
+        "CategoryName": "Greece",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-greece.jpg",
+                "LeagueName": "Basket League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/greece/basket-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-greece.jpg",
+                "LeagueName": "Basket League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/greece/basket-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-greece.jpg",
+                "LeagueName": "A2: Promotion Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/greece/a2-promotion-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-greece.jpg",
+                "LeagueName": "A2: Relegation Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/greece/a2-relegation-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-greece.jpg",
+                "LeagueName": "A2",
+                "LeagueLink": "https://www.livescore.com/en/basketball/greece/a2/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-hungary.jpg",
+        "CategoryName": "Hungary",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-hungary.jpg",
+                "LeagueName": "NB I. A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/hungary/nbi-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-hungary.jpg",
+                "LeagueName": "NB I. A: Championship play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/hungary/nb-i-a-championship-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-hungary.jpg",
+                "LeagueName": "NB I. A: Placement play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/hungary/nb-i-a-placement-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-hungary.jpg",
+                "LeagueName": "NB I. A: Relegation stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/hungary/nb-i-a-relegation-stage/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-indonesia.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-indonesia.jpg",
+                "LeagueName": "IBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/indonesia/ibl/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-israel.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-israel.jpg",
+                "LeagueName": "Super League: Winners Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/israel/super-league-winners-stage/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-israel.jpg",
+                "LeagueName": "Super League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/israel/super-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-israel.jpg",
+                "LeagueName": "Super League: Losers Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/israel/super-league-losers-stage/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Lega Basket Serie A: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/lega-basket-serie-a-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Lega Basket Serie A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/lega-basket-serie-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Serie A2: Play-offs",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/serie-a2-play-offs/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Serie A2 Blue Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/serie-a2-blue-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Serie A2 White Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/serie-a2-white-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Serie A2 Yellow Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/serie-a2-yellow-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Serie A2 Relegation Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/serie-a2-relegation-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Serie A2: Green",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/serie-a2-green/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Serie A2: Red",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/serie-a2-red/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Super Cup: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/super-cup-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Women's Serie A1: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/womens-serie-a1-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Women's Serie A1",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/serie-a1-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-italy.jpg",
+                "LeagueName": "Women's Serie A1: Relegation Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/italy/womens-serie-a1-relegation-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-japan.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-japan.jpg",
+                "LeagueName": "B.League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/japan/b-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-japan.jpg",
+                "LeagueName": "B.League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/japan/b-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-kazakhstan.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-kazakhstan.jpg",
+                "LeagueName": "National League: Pplay-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/kazakhstan/national-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-kazakhstan.jpg",
+                "LeagueName": "National League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/kazakhstan/national-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-kazakhstan.jpg",
+                "LeagueName": "Premier League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/kazakhstan/premier-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-latvia.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-latvia.jpg",
+                "LeagueName": "LBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/latvia/lbl-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-lithuania.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-lithuania.jpg",
+                "LeagueName": "LKL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/lithuania/lkl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-lithuania.jpg",
+                "LeagueName": "LKL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/lithuania/lkl/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-mexico.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-mexico.jpg",
+                "LeagueName": "LNBP",
+                "LeagueLink": "https://www.livescore.com/en/basketball/mexico/lnbp/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-mexico.jpg",
+                "LeagueName": "LNBP: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/mexico/lnbp-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-holland.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-holland.jpg",
+                "LeagueName": "DBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/holland/dbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-holland.jpg",
+                "LeagueName": "DBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/holland/dbl-2020-2021/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-holland.jpg",
+                "LeagueName": "DBL: Winners Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/holland/dbl-winners-stage/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-holland.jpg",
+                "LeagueName": "DBL: Losers Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/holland/dbl-losers-stage/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-north-macedonia.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-north-macedonia.jpg",
+                "LeagueName": "Superleague: Championship",
+                "LeagueLink": "https://www.livescore.com/en/basketball/north-macedonia/superleague-championship/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-north-macedonia.jpg",
+                "LeagueName": "Superleague",
+                "LeagueLink": "https://www.livescore.com/en/basketball/north-macedonia/superleague/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-north-macedonia.jpg",
+                "LeagueName": "Superleague: Relegation",
+                "LeagueLink": "https://www.livescore.com/en/basketball/north-macedonia/superleague-relegation/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-norway.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-norway.jpg",
+                "LeagueName": "BLNO: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/norway/blno-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-norway.jpg",
+                "LeagueName": "BLNO",
+                "LeagueLink": "https://www.livescore.com/en/basketball/norway/blno/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-norway.jpg",
+                "LeagueName": "BLNO Qualification Group",
+                "LeagueLink": "https://www.livescore.com/en/basketball/norway/blno-qualification-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-norway.jpg",
+                "LeagueName": "Kvinneligaen Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/norway/kvinneligaen-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-norway.jpg",
+                "LeagueName": "Kvinneligaen",
+                "LeagueLink": "https://www.livescore.com/en/basketball/norway/kvinneligaen/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-philippines.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-philippines.jpg",
+                "LeagueName": "Commissioner's Cup Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/philippines/commissioners-cup-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-philippines.jpg",
+                "LeagueName": "Commissioner's Cup",
+                "LeagueLink": "https://www.livescore.com/en/basketball/philippines/commissioners-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-philippines.jpg",
+                "LeagueName": "Philippine Cup",
+                "LeagueLink": "https://www.livescore.com/en/basketball/philippines/philippine-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-philippines.jpg",
+                "LeagueName": "Governors Cup: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/philippines/governors-cup-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-philippines.jpg",
+                "LeagueName": "Governors' Cup",
+                "LeagueLink": "https://www.livescore.com/en/basketball/philippines/governors-cup/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-poland.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-poland.jpg",
+                "LeagueName": "Energa Basket Liga",
+                "LeagueLink": "https://www.livescore.com/en/basketball/poland/energa-basket-liga/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-poland.jpg",
+                "LeagueName": "Energa Basket Liga: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/poland/energa-basket-liga-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-poland.jpg",
+                "LeagueName": "Women's Energa Basket Liga",
+                "LeagueLink": "https://www.livescore.com/en/basketball/poland/energa-basket-liga-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-poland.jpg",
+                "LeagueName": "Women's Energa Basket Liga: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/poland/energa-basket-liga-play-off-women/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-serbia.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-serbia.jpg",
+                "LeagueName": "Super League: Group A",
+                "LeagueLink": "https://www.livescore.com/en/basketball/serbia/super-league-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-serbia.jpg",
+                "LeagueName": "Super League: Group B",
+                "LeagueLink": "https://www.livescore.com/en/basketball/serbia/super-league-group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-serbia.jpg",
+                "LeagueName": "Basketball League of Serbia",
+                "LeagueLink": "https://www.livescore.com/en/basketball/serbia/basketball-league-of-serbia/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-slovakia.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-slovakia.jpg",
+                "LeagueName": "SBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/slovakia/sbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-slovakia.jpg",
+                "LeagueName": "SBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/slovakia/extraliga/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-slovenia.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-slovenia.jpg",
+                "LeagueName": "Liga Nova KBM: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/slovenia/liga-nova-kbm-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-slovenia.jpg",
+                "LeagueName": "Liga Nova KBM",
+                "LeagueLink": "https://www.livescore.com/en/basketball/slovenia/liga-nova-kbm/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-south-korea.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-south-korea.jpg",
+                "LeagueName": "KBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/south-korea/kbl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-south-korea.jpg",
+                "LeagueName": "KBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/south-korea/kbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-south-korea.jpg",
+                "LeagueName": "WKBL Women",
+                "LeagueLink": "https://www.livescore.com/en/basketball/south-korea/wkbl-women/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-south-korea.jpg",
+                "LeagueName": "WKBL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/south-korea/wkbl-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-spain.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-spain.jpg",
+                "LeagueName": "Liga ACB",
+                "LeagueLink": "https://www.livescore.com/en/basketball/spain/liga-acb/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-spain.jpg",
+                "LeagueName": "LEB Oro",
+                "LeagueLink": "https://www.livescore.com/en/basketball/spain/leb-oro/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-spain.jpg",
+                "LeagueName": "Copa del Rey",
+                "LeagueLink": "https://www.livescore.com/en/basketball/spain/copa-del-rey/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-spain.jpg",
+                "LeagueName": "Super Cup",
+                "LeagueLink": "https://www.livescore.com/en/basketball/spain/super-cup/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-taiwan.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-taiwan.jpg",
+                "LeagueName": "SBL: play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/taiwan/sbl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-taiwan.jpg",
+                "LeagueName": "SBL: 2nd Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/taiwan/sbl-2nd-stage/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-taiwan.jpg",
+                "LeagueName": "SBL: 1st Stage",
+                "LeagueLink": "https://www.livescore.com/en/basketball/taiwan/sbl-1st-stage/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-taiwan.jpg",
+                "LeagueName": "WSBL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/taiwan/wsbl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-taiwan.jpg",
+                "LeagueName": "WSBL: Playoff",
+                "LeagueLink": "https://www.livescore.com/en/basketball/taiwan/wsbl-playoff/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-tajikistan.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-tajikistan.jpg",
+                "LeagueName": "National League",
+                "LeagueLink": "https://www.livescore.com/en/basketball/tajikistan/national-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-turkey.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-turkey.jpg",
+                "LeagueName": "BSL",
+                "LeagueLink": "https://www.livescore.com/en/basketball/turkey/bsl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-turkey.jpg",
+                "LeagueName": "Cup",
+                "LeagueLink": "https://www.livescore.com/en/basketball/turkey/cup/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-ukraine.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-ukraine.jpg",
+                "LeagueName": "FBU Superleague",
+                "LeagueLink": "https://www.livescore.com/en/basketball/ukraine/superliga-favorit-sport/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xbb-usa.jpg",
+        "CategoryName": "",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-usa.jpg",
+                "LeagueName": "BIG3: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/basketball/usa/big3-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xbb-usa.jpg",
+                "LeagueName": "BIG3",
+                "LeagueLink": "https://www.livescore.com/en/basketball/usa/big3/"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1047 @@
+[
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-nhl.jpg",
+        "CategoryName": "NHL",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-nhl.jpg",
+                "LeagueName": "NHL: Regular season",
+                "LeagueLink": "https://www.livescore.com/en/hockey/nhl/nhl-regular-season/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-nhl.jpg",
+                "LeagueName": "NHL: All-Star game",
+                "LeagueLink": "https://www.livescore.com/en/hockey/nhl/nhl-all-star-game/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-nhl.jpg",
+                "LeagueName": "NHL: Preseason",
+                "LeagueLink": "https://www.livescore.com/en/hockey/nhl/preseason/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-nhl.jpg",
+                "LeagueName": "Stanley Cup Playoffs",
+                "LeagueLink": "https://www.livescore.com/en/hockey/nhl/stanley-cup-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-world-championship.jpg",
+        "CategoryName": "World Championship",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship.jpg",
+                "LeagueName": "Preliminary Round: Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship/preliminary-round-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship.jpg",
+                "LeagueName": "Preliminary Round: Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship/preliminary-round-group-b/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-womens-world-championship.jpg",
+        "CategoryName": "Women's World Championship",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-womens-world-championship.jpg",
+                "LeagueName": "Women's World Championship: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/womens-world-championship/womens-world-championship-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-womens-world-championship.jpg",
+                "LeagueName": "Women's World Championship: Placement Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/womens-world-championship/womens-world-championship-placement-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-womens-world-championship.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/womens-world-championship/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-womens-world-championship.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/womens-world-championship/group-b/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+        "CategoryName": "Champions League",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Final",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/final/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Semi-finals",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Quarter-finals",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/quarter-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Round of 16",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/round-of-16/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/group-c/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Group D",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/group-d/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Group E",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/group-e/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Group F",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/group-f/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Group G",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/group-g/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-champions-league.jpg",
+                "LeagueName": "Group H",
+                "LeagueLink": "https://www.livescore.com/en/hockey/champions-league/group-h/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+        "CategoryName": "Sweden",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "SHL",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/shl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "SHL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/shl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "SHL: Relegation play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/shl-relegation-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "Hockeyallsvenskan",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyallsvenskan-20-21/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "Hockeyallsvenskan: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyallsvenskan-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "Hockeyallsvenskan: Relegation Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyallsvenskan-relegation-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan: Promotion Group",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-promotion-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan: Norra: Qualification",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-norra-qualification/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan: Norra",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-norra-2020/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan: Norra: Relegation",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-norra-relegation/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan: Oestra",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-oestra/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan Oestra: Qualification",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-oestra-qualification/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan: Soedra",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-soedra/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan: Soedra: Relegation",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-soedra-relegation/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan Soedra: Qualification",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-soedra-qualification/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan: Vaestra",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-vaestra/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "AllEttan: Norra",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/allettan-norra/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "AllEttan: Soedra",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/allettan-soedra/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-sweden.jpg",
+                "LeagueName": "HockeyEttan Vaestra: Qualification",
+                "LeagueLink": "https://www.livescore.com/en/hockey/sweden/hockeyettan-vaestra-qualification/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-czech-republic.jpg",
+        "CategoryName": "Czech Republic",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-czech-republic.jpg",
+                "LeagueName": "Extraliga: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/czech-republic/extraliga-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-czech-republic.jpg",
+                "LeagueName": "Extraliga Qualification Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/czech-republic/extraliga-qualification-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-czech-republic.jpg",
+                "LeagueName": "1st League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/czech-republic/1-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-czech-republic.jpg",
+                "LeagueName": "1st League 22/23",
+                "LeagueLink": "https://www.livescore.com/en/hockey/czech-republic/1-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-czech-republic.jpg",
+                "LeagueName": "1st League",
+                "LeagueLink": "https://www.livescore.com/en/hockey/czech-republic/1-league-2021-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-czech-republic.jpg",
+                "LeagueName": "1st League: Relegation",
+                "LeagueLink": "https://www.livescore.com/en/hockey/czech-republic/1-league-relegation/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-czech-republic.jpg",
+                "LeagueName": "Extraliga",
+                "LeagueLink": "https://www.livescore.com/en/hockey/czech-republic/extraliga/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-switzerland.jpg",
+        "CategoryName": "Switzerland",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-switzerland.jpg",
+                "LeagueName": "National League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/switzerland/national-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-switzerland.jpg",
+                "LeagueName": "National League: Relegation Playoff",
+                "LeagueLink": "https://www.livescore.com/en/hockey/switzerland/national-league-relegation-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-switzerland.jpg",
+                "LeagueName": "National League",
+                "LeagueLink": "https://www.livescore.com/en/hockey/switzerland/national-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-switzerland.jpg",
+                "LeagueName": "National League: Qualification Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/switzerland/national-league-qualification-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-switzerland.jpg",
+                "LeagueName": "Swiss League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/switzerland/swiss-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-switzerland.jpg",
+                "LeagueName": "Swiss League",
+                "LeagueLink": "https://www.livescore.com/en/hockey/switzerland/swiss-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-germany.jpg",
+        "CategoryName": "Germany",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-germany.jpg",
+                "LeagueName": "DEL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/germany/del-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-germany.jpg",
+                "LeagueName": "DEL",
+                "LeagueLink": "https://www.livescore.com/en/hockey/germany/del/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-germany.jpg",
+                "LeagueName": "DEL2: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/germany/del2-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-germany.jpg",
+                "LeagueName": "DEL2",
+                "LeagueLink": "https://www.livescore.com/en/hockey/germany/del2/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-germany.jpg",
+                "LeagueName": "DEL2: Relegation",
+                "LeagueLink": "https://www.livescore.com/en/hockey/germany/del2-relegation/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-finland.jpg",
+        "CategoryName": "Finland",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-finland.jpg",
+                "LeagueName": "Liiga",
+                "LeagueLink": "https://www.livescore.com/en/hockey/finland/liiga/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-finland.jpg",
+                "LeagueName": "Liiga Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/finland/liiga-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-finland.jpg",
+                "LeagueName": "Mestis Liiga: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/finland/mestis-liiga-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-finland.jpg",
+                "LeagueName": "Mestis Liiga",
+                "LeagueLink": "https://www.livescore.com/en/hockey/finland/mestis-liiga/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-finland.jpg",
+                "LeagueName": "Mestis: Qualification",
+                "LeagueLink": "https://www.livescore.com/en/hockey/finland/mestis-qualification/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-finland.jpg",
+                "LeagueName": "Sarja: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/finland/sarja-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-finland.jpg",
+                "LeagueName": "Sarja",
+                "LeagueLink": "https://www.livescore.com/en/hockey/finland/sarja/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-austria.jpg",
+        "CategoryName": "Austria",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-austria.jpg",
+                "LeagueName": "ICE Hockey League",
+                "LeagueLink": "https://www.livescore.com/en/hockey/austria/ice-hockey-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-austria.jpg",
+                "LeagueName": "ICE Hockey League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/austria/ice-hockey-league-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-denmark.jpg",
+        "CategoryName": "Denmark",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-denmark.jpg",
+                "LeagueName": "Metal Ligaen: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/denmark/metal-ligaen-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-denmark.jpg",
+                "LeagueName": "Metal Ligaen",
+                "LeagueLink": "https://www.livescore.com/en/hockey/denmark/metal-ligaen/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-denmark.jpg",
+                "LeagueName": "Metal Ligaen 21/22",
+                "LeagueLink": "https://www.livescore.com/en/hockey/denmark/metal-ligaen-2021-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-denmark.jpg",
+                "LeagueName": "Metal Cup",
+                "LeagueLink": "https://www.livescore.com/en/hockey/denmark/metal-cup/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+        "CategoryName": "International",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Alps Hockey League: Play-off Final Stage",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/alps-hockey-league-playoff-final-stage/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Alps Hockey League",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/alps-hockey-league/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Alps Hockey League: Play-off Qualification: Round A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/alps-hockey-league-play-off-qualification-round-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Alps Hockey League: Play-off Qualification: Round B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/alps-hockey-league-play-off-qualification-round-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Alps Hockey League: Play-off Placement",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/alps-hockey-league-play-off-placement-matches/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Czech Hockey Games",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/czech-hockey-games/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Friendlies",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/friendlies/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Deutschland Cup",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/deutschland-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Karjala Cup",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/karjala-cup/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Euro Ice Hockey Challenge: Austria",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/euro-ice-hockey-challenge-austria/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC Austria",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-austria/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC Denmark",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-denmark/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC France",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-france/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC Hungary: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-hungary-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC Hungary",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-hungary/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC Latvia",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-latvia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC Norway",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-norway/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC Poland",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-poland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC Slovakia",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-slovakia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "EIHC Switzerland",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/eihc-switzerland/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Euro Ice Hockey Challenge: Slovakia",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/euro-ice-hockey-challenge-slovakia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Sweden Hockey Games",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/sweden-hockey-games/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Euro Ice Hockey Challenge: Slovenia",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/euro-ice-hockey-challenge-slovenia/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Euro Ice Hockey Challenge: South Korea",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/euro-ice-hockey-challenge-south-korea/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Spengler Cup: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/spengler-cup-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Spengler Cup: Group 1",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/spengler-cup-group-1/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Spengler Cup: Group 2",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/spengler-cup-group-2/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-international.jpg",
+                "LeagueName": "Club Friendlies",
+                "LeagueLink": "https://www.livescore.com/en/hockey/international/club-friendlies/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-belarus.jpg",
+        "CategoryName": "Belarus",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-belarus.jpg",
+                "LeagueName": "Extraleague",
+                "LeagueLink": "https://www.livescore.com/en/hockey/belarus/extraleague/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-belarus.jpg",
+                "LeagueName": "Extraleague: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/belarus/extraleague-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-belarus.jpg",
+                "LeagueName": "Cup: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/belarus/cup-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-belarus.jpg",
+                "LeagueName": "Cup: Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/belarus/cup-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-belarus.jpg",
+                "LeagueName": "Cup: Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/belarus/cup-group-b/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+        "CategoryName": "Canada",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+                "LeagueName": "OHL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/canada/ohl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+                "LeagueName": "OHL",
+                "LeagueLink": "https://www.livescore.com/en/hockey/canada/ohl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+                "LeagueName": "OHL: Pre-season",
+                "LeagueLink": "https://www.livescore.com/en/hockey/canada/ohl-pre-season/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+                "LeagueName": "QMJHL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/canada/qmjhl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+                "LeagueName": "QMJHL",
+                "LeagueLink": "https://www.livescore.com/en/hockey/canada/qmjhl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+                "LeagueName": "QMJHL: Pre-season",
+                "LeagueLink": "https://www.livescore.com/en/hockey/canada/qmjhl-pre-season/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+                "LeagueName": "WHL: Playoff",
+                "LeagueLink": "https://www.livescore.com/en/hockey/canada/whl-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+                "LeagueName": "WHL",
+                "LeagueLink": "https://www.livescore.com/en/hockey/canada/whl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-canada.jpg",
+                "LeagueName": "WHL: Pre-season",
+                "LeagueLink": "https://www.livescore.com/en/hockey/canada/whl-pre-season/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-france.jpg",
+        "CategoryName": "France",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-france.jpg",
+                "LeagueName": "Ligue Magnus: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/france/ligue-magnus-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-france.jpg",
+                "LeagueName": "Ligue Magnus",
+                "LeagueLink": "https://www.livescore.com/en/hockey/france/ligue-magnus/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-france.jpg",
+                "LeagueName": "Ligue Magnus: Relegation Group",
+                "LeagueLink": "https://www.livescore.com/en/hockey/france/ligue-magnus-relegation-group/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-britain.jpg",
+        "CategoryName": "Great Britain",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-britain.jpg",
+                "LeagueName": "Elite League: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/britain/elite-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-britain.jpg",
+                "LeagueName": "Elite League",
+                "LeagueLink": "https://www.livescore.com/en/hockey/britain/elite-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-hungary.jpg",
+        "CategoryName": "Hungary",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-hungary.jpg",
+                "LeagueName": "Erste Liga: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/hungary/erste-liga-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-hungary.jpg",
+                "LeagueName": "Erste Liga",
+                "LeagueLink": "https://www.livescore.com/en/hockey/hungary/erste-liga/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-italy.jpg",
+        "CategoryName": "Italy",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-italy.jpg",
+                "LeagueName": "IHL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/italy/ihl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-italy.jpg",
+                "LeagueName": "IHL: Play-off Group",
+                "LeagueLink": "https://www.livescore.com/en/hockey/italy/ihl-play-off-group/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-italy.jpg",
+                "LeagueName": "IHL",
+                "LeagueLink": "https://www.livescore.com/en/hockey/italy/lihg/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-italy.jpg",
+                "LeagueName": "IHL: Relegation Group",
+                "LeagueLink": "https://www.livescore.com/en/hockey/italy/ihl-relegation-group/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-kazakhstan.jpg",
+        "CategoryName": "Kazakhstan",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-kazakhstan.jpg",
+                "LeagueName": "Championship: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/kazakhstan/championship-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-kazakhstan.jpg",
+                "LeagueName": "Championship",
+                "LeagueLink": "https://www.livescore.com/en/hockey/kazakhstan/championship/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-norway.jpg",
+        "CategoryName": "Norway",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-norway.jpg",
+                "LeagueName": "Eliteserien: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/norway/get-ligaen-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-norway.jpg",
+                "LeagueName": "Eliteserien",
+                "LeagueLink": "https://www.livescore.com/en/hockey/norway/eliteserien/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-norway.jpg",
+                "LeagueName": "Eliteseiren: Qualification",
+                "LeagueLink": "https://www.livescore.com/en/hockey/norway/get-ligaen-qualification/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-norway.jpg",
+                "LeagueName": "1st Division: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/norway/1st-division-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-norway.jpg",
+                "LeagueName": "1st Division",
+                "LeagueLink": "https://www.livescore.com/en/hockey/norway/1st-division/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-norway.jpg",
+                "LeagueName": "1st Division: Qualification",
+                "LeagueLink": "https://www.livescore.com/en/hockey/norway/1st-division-qualification/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-poland.jpg",
+        "CategoryName": "Poland",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-poland.jpg",
+                "LeagueName": "PHL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/poland/phl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-poland.jpg",
+                "LeagueName": "PHL",
+                "LeagueLink": "https://www.livescore.com/en/hockey/poland/phl/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-slovakia.jpg",
+        "CategoryName": "Slovakia",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-slovakia.jpg",
+                "LeagueName": "Extraliga",
+                "LeagueLink": "https://www.livescore.com/en/hockey/slovakia/extraliga/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-slovakia.jpg",
+                "LeagueName": "Extraliga: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/slovakia/extraliga-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-slovakia.jpg",
+                "LeagueName": "1st league: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/slovakia/1st-league-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-slovakia.jpg",
+                "LeagueName": "1st league",
+                "LeagueLink": "https://www.livescore.com/en/hockey/slovakia/1st-league/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-ukraine.jpg",
+        "CategoryName": "Ukraine",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-ukraine.jpg",
+                "LeagueName": "UHL",
+                "LeagueLink": "https://www.livescore.com/en/hockey/ukraine/uhl/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-ukraine.jpg",
+                "LeagueName": "UHL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/ukraine/uhl-play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-usa.jpg",
+        "CategoryName": "USA",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-usa.jpg",
+                "LeagueName": "AHL: Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/usa/ahl-play-off/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-usa.jpg",
+                "LeagueName": "AHL",
+                "LeagueLink": "https://www.livescore.com/en/hockey/usa/ahl/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-olympics-men.jpg",
+        "CategoryName": "Olympics Men",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-men.jpg",
+                "LeagueName": "Semi-finals",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-men/semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-men.jpg",
+                "LeagueName": "Gold Medal Match",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-men/gold-medal-match/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-men.jpg",
+                "LeagueName": "Bronze Medal Match",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-men/bronze-medal-match/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-men.jpg",
+                "LeagueName": "Quarter-finals",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-men/quarter-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-men.jpg",
+                "LeagueName": "Playoffs",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-men/playoffs/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-men.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-men/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-men.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-men/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-men.jpg",
+                "LeagueName": "Group C",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-men/group-c/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-olympics-women.jpg",
+        "CategoryName": "Olympics Women",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-women.jpg",
+                "LeagueName": "Gold Medal Match",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-women/gold-medal-match/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-women.jpg",
+                "LeagueName": "Bronze Medal Match",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-women/bronze-medal-match/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-women.jpg",
+                "LeagueName": "Semi-finals",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-women/semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-women.jpg",
+                "LeagueName": "Quarter-finals",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-women/quarter-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-women.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-women/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-olympics-women.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/olympics-women/group-b/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-b-world-championship.jpg",
+        "CategoryName": "B-World Championship",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-b-world-championship.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/b-world-championship/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-b-world-championship.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/b-world-championship/group-b/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-b-world-championship-u-20.jpg",
+        "CategoryName": "B-World Championship U-20",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-b-world-championship-u-20.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/b-world-championship-u-20/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-b-world-championship-u-20.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/b-world-championship-u-20/group-b/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+        "CategoryName": "World Championship U-20",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+                "LeagueName": "Final",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-u-20/final/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+                "LeagueName": "Semi Finals",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-u-20/semi-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+                "LeagueName": "Quarter Finals",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-u-20/quarter-finals/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+                "LeagueName": "Relegation Playoff",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-u-20/relegation-playoff/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-u-20/group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-u-20/group-b/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-u-20/group-a-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-u-20/group-b-2022/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-u-20.jpg",
+                "LeagueName": "Play-off",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-u-20/play-off/"
+            }
+        ]
+    },
+    {
+        "CategoryIcon": "https://static.livescore.com/i2/fh/xih-world-championship-division-i.jpg",
+        "CategoryName": "World Championship Division I",
+        "Leagues": [
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-division-i.jpg",
+                "LeagueName": "Group A",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-division-i/world-championship-division-i-group-a/"
+            },
+            {
+                "LeagueIcon": "https://static.livescore.com/i2/fh/xih-world-championship-division-i.jpg",
+                "LeagueName": "Group B",
+                "LeagueLink": "https://www.livescore.com/en/hockey/world-championship-division-i/world-championship-division-i-group-b-2022/"
+            }
+        ]
+    }
+]
