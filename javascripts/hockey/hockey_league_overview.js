@@ -1,4 +1,4 @@
-async function getHockeyLeagueDetail() {
+async function getHockeyLeagueOverview() {
 	var results = {};
 	var listFixtures = null;
 	var listResults = null;
@@ -56,6 +56,7 @@ async function getHockeyLeagueDetail() {
 
 		console.log("Scroll page down");
 		window.scrollBy(0, 1000);
+		await sleep(100);
 
 		var currentPageYOffset = window.pageYOffset;
 		console.log("Current Page Y offset: " + currentPageYOffset);
@@ -71,46 +72,53 @@ async function getHockeyLeagueDetail() {
 	if (listFixtures) results["Fixtures"] = fixturesData;
 	if (listResults) results["Results"] = resultsData;
 
+	var tableData = await getOverviewTable();
+	if (tableData) results["Table"] = tableData;
+
 	return results;
 };
 
-async function getHockeyMatches(league) {
-	var results = []
-	var matches = await league.querySelectorAll(":scope > [id*='match-row']");
+async function getOverviewTable() {
+	var result = {};
+	var leagueData = [];
+	var conferenceData = [];
+	var divisionData = [];
 
-	console.log("Matches length: " + matches.length);
+	var leagueTable = document.getElementById('league-table');
+	var tableBody = leagueTable.querySelector("tbody");
+	var leagueRows = tableBody.querySelectorAll(":scope > [id*=league-row]");
 
-	for (let i = 0; i < matches.length; i++) {
-		var match = matches[i];
-		var matchData = {};
+	var tableTabs = leagueTable.querySelector("[id*='league-table-tab']");
+	var tableTabColumns = tableTabs.querySelectorAll(":scope > th");
+	var tableTabData = [];
 
-		matchData["Id"] = await getMatchId(match);
-		matchData["IsLive"] = await getMatchLiveStatus(match);
-		matchData["Link"] = await getMatchLink(match);
+	for	(var i = 0; i < tableTabColumns.length; i++) {
+		tableTabData.push(tableTabColumns[i].innerText);
+	}
+	
+	leagueData.push(tableTabData);
 
-		var homeName = await match.querySelector("[id*='home-team-name']").innerText;
-		var awayName = await match.querySelector("[id*='away-team-name']").innerText;
+	for	(var i = 0; i < leagueRows.length; i++) {
+		var rowData = {};
+		rowData["Position"] = leagueRows[i].querySelector("[id*='league-column__position']").innerText;
+		rowData["Name"] = leagueRows[i].querySelector("[id*='league-column__name']").innerText;
+		rowData["Icon"] = leagueRows[i].querySelector("[id*='league-column__name']").querySelector("[alt='" + rowData["Name"] + "']").getAttribute("src")
+		rowData["Played"] = leagueRows[i].querySelector("[id*='league-column__played']").innerText;
+		rowData["Wins"] = leagueRows[i].querySelector("[id*='league-column__wins']").innerText;
+		rowData["Losses"] = leagueRows[i].querySelector("[id*='league-column__losses']").innerText;
+		rowData["GoalsFor"] = leagueRows[i].querySelector("[id*='league-column__goalsFor']").innerText;
+		rowData["GoalsAgainst"] = leagueRows[i].querySelector("[id*='league-column__goalsAgainst']").innerText;
+		rowData["GoalsDiff"] = leagueRows[i].querySelector("[id*='league-column__goalsDiff']").innerText;
+		rowData["Points"] = leagueRows[i].querySelector("[id*='league-column__points']").innerText;
 
-		try {
-			matchData["HomeScore"] = await match.querySelector("[id*='home-team-score']").innerText;
-			matchData["AwayScore"] = await match.querySelector("[id*='away-team-score']").innerText;
-		} catch { }
-
-		try {
-			matchData["HomeIcon"] = await match.querySelector("[alt*='" + homeName + "']").getAttribute("src");
-			matchData["AwayIcon"] = await match.querySelector("[alt*='" + awayName + "']").getAttribute("src");
-		} catch { }
-
-		var statusOrTime = await match.querySelector("[id*='status-or-time']").innerText;
-
-		matchData["StatusOrTime"] = statusOrTime;
-		matchData["HomeName"] = homeName;
-		matchData["AwayName"] = awayName;
-
-		results.push(matchData);
+		leagueData.push(rowData);
 	}
 
-	return results;
+	result["League"] = leagueData;
+	result["Conference"] = conferenceData;
+	result["Division"] = divisionData;
+
+	return result;
 }
 
-return getHockeyLeagueDetail();
+return getHockeyLeagueOverview();

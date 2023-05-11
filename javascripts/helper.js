@@ -34,7 +34,7 @@ function sleep(time) {
 }
 
 function sleepRandom() {
-    var time = getRandomInt(100, 300)
+    var time = getRandomInt(100, 200)
     return new Promise(resolve => setTimeout(resolve, time));
 }
 

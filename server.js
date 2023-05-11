@@ -1339,19 +1339,20 @@ server.listen(PORT, () => {
 
 // getHockeyLeagueDetail("https://www.livescore.com/en/hockey/nhl/preseason/");
 
-async function test(siteUrl) {
+async function getLeagueResultsOrFixtures(url) {
 	var driver = await openBrowser();
-	await driver.get(siteUrl);
+	await driver.get(url);
 
-	await driver.wait(until.elementLocated(By.xpath("//*[@data-testid='overview_root']")), 0);
-	// await driver.wait(until.elementLocated(By.xpath("//*[@data-test-id='virtuoso-item-list']")), 0);
+	// await driver.wait(until.elementLocated(By.xpath("//*[@data-testid='overview_root']")), 0);
+	await driver.wait(until.elementLocated(By.xpath("//*[@data-test-id='virtuoso-item-list']")), 0);
 
 	var startTime = performance.now()
 
 	var fs = require('fs');
-	var helperCode = await fs.readFileSync('./js/helper.js', 'utf8');
-	var scriptCode = await fs.readFileSync('./js/test.js', 'utf8');
-	var code = helperCode + scriptCode;
+	var code1 = await fs.readFileSync('./javascripts/hockey/hockey_match.js', 'utf8');
+	var code2 = await fs.readFileSync('./javascripts/helper.js', 'utf8');
+	var code3 = await fs.readFileSync('./javascripts/hockey/hockey_league_results_or_fixtures.js', 'utf8');
+	var code = code1 + code2 + code3;
 	var result = await driver.executeScript(code);
 	console.log(result);
 
@@ -1360,10 +1361,10 @@ async function test(siteUrl) {
 
 	console.log("Save data to file");
 	var json = JSON.stringify(result);
-	fs.writeFileSync('./output/tennis.json', json);
+	fs.writeFileSync('./output/hockey-league-detail.json', json);
 }
 
-// test("https://www.livescore.com/en/hockey/nhl/nhl-regular-season/");
+getLeagueResultsOrFixtures("https://www.livescore.com/en/hockey/nhl/nhl-regular-season/results/");
 
 
 async function getLeagues(siteUrl, gameName) {
@@ -1440,5 +1441,5 @@ async function getLeagues(siteUrl, gameName) {
 
 // getLeagues("https://www.livescore.com/en/hockey", "hockey");
 // getLeagues("https://www.livescore.com/en/tennis", "tennis");
-getLeagues("https://www.livescore.com/en/basketball", "basketball");
+// getLeagues("https://www.livescore.com/en/basketball", "basketball");
 // getLeagues("https://www.livescore.com/en/cricket", "cricket");
